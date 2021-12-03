@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [ 16.x]
+        node-version: [ 17.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
       - uses: actions/checkout@master
@@ -19,9 +19,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:        
-          deploy_key: ${{ secrets.RDV_SPEAKERS }}
+          deploy_key: ${{ secrets.CAMPING_SPEAKERS }}
           publish_branch: gh-pages
           publish_dir: _site
-          destination_dir: les-briques-du-web
-          external_repository: RdvSpeakers/rdv-speakers         
+          destination_dir: /
+          external_repository: RdvSpeakers/camping-des-speakers      
 
