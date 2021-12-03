@@ -1,0 +1,30 @@
+{
+  "name": "camping-des-speakers",
+  "version": "0.1.0",
+  "description": "*Le Camping des speakers* est une conférence technique destinée aux développeurs et développeuses. Elle s'adresse aussi bien aux étudiant•e•s, aux professionnels ou tout simplement aux curieux et curieuses technophiles. Situation sanitaire oblige, l'édition 2020 de La Rentrée des Speakers 2020 se fera en ligne., ... ",
+  "main": "index.js",
+  "scripts": {
+    "build": "ELEVENTY_ENV=production node -r esm node_modules/.bin/eleventy",
+    "dev": "ELEVENTY_ENV=development node -r esm node_modules/.bin/eleventy --serve",
+    "debug": "DEBUG=* node -r esm node_modules/.bin/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RdvSpeakers/camping-des-speakers-website.git",
+    "https": "https://github.com/RdvSpeakers/camping-des-speakers-website",
+    "editUrl": "https://github.com/RdvSpeakers/camping-des-speakers-website/-/edit/master"
+  },
+  "author": "Horacio Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RdvSpeakers/camping-des-speakers-website/issues"
+  },
+  "homepage": "https://camping-speakers.fr/",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "clean-css": "^4.2.3",
+    "esm": "^3.2.25",
+    "html-minifier": "^4.0.0",
+    "terser": "^5.5.1"
+  }
+}

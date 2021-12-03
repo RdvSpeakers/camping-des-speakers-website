@@ -1,0 +1,121 @@
+/**
+ * @file Defines styles specific to the home page
+ * Custom properties are set in `_includes/shortcodes/css-root.js`
+ * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/CSS/--*CSS Custom Properties on MDN}
+ */
+
+.jumbo {
+  position: relative;
+  height: 25em;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+}
+
+.jumbo .jumbo-cover {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(./img/backgrounds/camping-des-speakers.jpg);
+}
+
+.jumbo .jumbo-overlay {  
+  background-color: var(--jumbo-overlay-color);
+  transition: opacity var(--jumbo-overlay-transition, 0.4s);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6 !important;
+}
+
+.jumbo .inner-wrapper {
+  position: relative;
+  color: var(--jumbo-text, white);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+
+.jumbo .inner-wrapper .inner {
+  padding: var(--space-4);
+  color: var(--primary-txt);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbo .inner-wrapper .inner h2 {
+  font-size: 1.75rem;
+  margin: var(--space-3) 0;
+  font-weight: 600;
+}
+
+.jumbo .inner-wrapper .inner h3 {
+  font-size: 1.8rem;
+  margin: var(--space-3) 0;
+  font-size: 1.25em;
+  overflow-wrap: break-word;
+}
+
+.jumbo .scroll-down {
+  position: relative;
+  color: var(--base, white);
+}
+
+.jumbo .scroll-down .icon {
+  height: 2.5em;
+  width: 1.5em;
+}
+
+.jumbo img.jumbo-logo {
+  width: min(650px, 80%);
+}
+
+@keyframes scrollDownMove {
+  from {
+    transform: translateY(-.15em);
+  }
+  to {
+    transform: translateY(.65em);
+  }
+}
+
+
+.icon {
+  --size: 1em;
+  height: var(--size, 1em);
+  min-width: var(--size, 1em);
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-right: var(--space-1);
+}
+
+.nextEpisode {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.nextEpisode h2 {
+  margin-bottom: 2rem;
+}
+.nextEpisode a {
+  max-width: min(90%, 1200px);
+  margin: 0;
+}
