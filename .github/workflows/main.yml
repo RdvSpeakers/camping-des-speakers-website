@@ -22,6 +22,6 @@ jobs:
           deploy_key: ${{ secrets.CAMPING_SPEAKERS }}
           publish_branch: gh-pages
           publish_dir: _site
-          destination_dir: /
+          destination_dir: ""
           external_repository: RdvSpeakers/camping-des-speakers      
 
