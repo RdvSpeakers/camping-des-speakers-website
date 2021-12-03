@@ -38,8 +38,8 @@ export default eleventyConfig =>
         <meta name="twitter:image" content="${data.site.baseUrl}/img/${data.thumbnail}">
         <meta name="twitter:card" content="summary_large_image">`
         // Create a file named ./img/next/card.jpg to make the fallback work
-      : `<meta property="og:image" content="${data.site.baseUrl}/img/next/card.jpg">
-        <meta name="twitter:image" content="${data.site.baseUrl}/img/next/card.jpg">
+      : `<meta property="og:image" content="${data.site.baseUrl}/img/social-share.jpg">
+        <meta name="twitter:image" content="${data.site.baseUrl}/img/social-share.jpg">
         <meta name="twitter:card" content="summary_large_image">`
     meta += `<meta property="og:url" content="${data.page.url}">`
     return meta

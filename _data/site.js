@@ -26,7 +26,6 @@ export default {
   logo: {
     url: 'img/logos/logo_color_text.png'
   },
-  thumbnail: 'thumbnail.jpg',
   fr: {
     title: 'Le Camping des Speakers',
     // French as used in France
