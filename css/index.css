@@ -1,0 +1,535 @@
+/**
+ * @file Defines styles common to all pages
+ * Custom properties are set in `_includes/shortcodes/css-root.js`
+ * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Horacio Gonzalez <horacio.gonzalez@gmail.com>
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/CSS/--*CSS Custom Properties on MDN}
+ */
+
+/* Set box-sizing for all elements */
+*:
+*:before
+*:after {
+  box-sizing: border-box;
+}
+
+/* Visually hide an element, but leave it available for screen readers */
+.screen-reader-text {
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 500;
+}
+
+
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1em;
+}
+
+/* Margin */
+.no-margin {
+  margin: 0;
+}
+
+/* Colors */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+time,
+footer {
+  color: var(--gray);
+}
+
+code {
+  background-color: var(--grayscale-100);
+  border-radius: 3px;
+  color: var(--black);
+  hyphens: manual;
+  padding: 1px 3px;
+}
+
+
+nav a{
+  font-weight: 700;
+}
+
+ul {
+  list-style: square;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:visited {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+nav a {
+  padding: 0.5em;
+}
+
+/* Border */
+#site_header + nav {
+  border-top: var(--border);
+  border-bottom: var(--border);
+}
+
+
+header label .icon-menu {
+  display: block;
+}
+
+
+
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+/* Layout */
+.grid {
+  display: grid;
+}
+  
+.gap {
+  gap: var(--base-unit);
+}
+
+body {  
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, serif;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
+}
+
+main {  
+  flex-grow: 1;
+  margin: var(--toolbar-height) 0 0;
+}
+
+main img {
+  max-width: 100%;
+}
+
+body > header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: var(--toolbar-height);
+  box-shadow: 0 var(--space-1) var(--header-background-color),
+    0 var(--space-2) var(--space-1) var(--darken-3);
+  background: var(--header-background-color);
+  color: var(--header-text-color);
+}
+body > header .top-content {
+  max-width: var(--theJdrSize);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+body > header .logo img {
+  height: calc(var(--toolbar-height) - (2 * var(--space-2)));
+}
+body > header label {
+  display: none;
+  opacity: 0.5;
+  padding: 0.1em;
+  border: var(--space-2) solid transparent;
+  outline-offset: var(--space-2);
+}
+body > header label .icon {
+  --size: 1.5rem;
+  height: var(--size, 1.5rem);
+  width: var(--size, 1.5rem);
+}
+body > header label .icon-menu {
+  display: block;
+}
+body > header label .icon-close {
+  display: none;
+}
+body > header label:hover,
+body > header label:focus {
+  opacity: 1;
+  outline: thin dotted currentColor;
+}
+body > header input[type="checkbox"]:checked ~ label .icon-menu {
+  display: none;
+}
+body > header input[type="checkbox"]:checked ~ label .icon-close {
+  display: block;
+}
+body > header input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+body > header nav {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+body > header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+body > header nav li {
+  opacity: 0.6;
+  transition: all var(--animation);
+  border-bottom: thin solid transparent;
+  border-radius: 5%;
+}
+body > header nav li.active {
+  opacity: 1;
+  border-bottom-color: currentColor;
+}
+body > header nav a {
+  display: block;
+  text-transform: uppercase;
+  padding: 0 var(--space-3);
+  text-decoration: none;
+  line-height: calc(var(--toolbar-height) - (4 * var(--space-2)));
+  color: inherit;
+  font-weight: 200;
+}
+body > header nav a svg {
+  max-width: 3ch;
+}
+body > header nav nav a:focus,
+body > header nav nav a:hover {
+  text-shadow: var(--extruded-dark);
+  opacity: 0.75;
+}
+
+body > header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+@media (max-width: 60em) {
+  body > header label {
+    display: block;
+  }
+  body > header nav ul {
+    flex-direction: column;
+  }
+  body > header nav {
+    display: none;
+    color:  var(--header-text-color);
+    width: 100%;
+    padding: 0 1em;
+    background: var(--header-background-color);
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top: solid 1px var(--header-text-color);
+  }
+}
+
+
+body > footer {
+  background: var(--header-background-color);
+  color: var(--header-text-color);
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr minmax(300px,min(90vw,1024px)) 1fr;
+  gap: var(--base-unit);
+  font-size: small;
+  background-color: var(--header-background-color);
+  color: var(--header-text-color);
+}
+
+body > footer > .content {
+  grid-column: 2;
+}
+
+article{
+  padding: 2rem;
+}
+
+
+article p {
+  text-align: justify;
+  hyphens: manual;
+}
+
+@media (max-width: 30em) {
+  article {
+    padding: 0.5rem;
+  }
+}
+
+
+main > article > header {
+  margin-bottom: 2rem;
+}
+
+main > article > header > .episode {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: var(--gray);
+  font-weight: 700;
+  font-size: small;
+  margin-bottom: 1rem;
+}
+
+main > article > header > h1 {
+  font-size: 1.50em;
+  line-height: 1.5;
+}
+
+main > article > header > h2 {
+  font-size: 1.25em;
+  margin-bottom: 1rem;
+}
+
+section.grid {
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  justify-items: center;
+  align-items: center;
+}
+
+
+article.card {
+  display: block;
+  width: min(calc(300px - 20px - 4px), 100%);
+  height: calc(300px - 20px - 4px);
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, .4);
+}
+
+article.card > .card_content {
+  width: min(calc(300px - 20px - 4px), 100%);
+  height: calc(300px - 20px - 4px);
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+article.card .card_header > h2 {
+  font-size: 1.25em;
+}
+
+article.card .card_header > h2 > a  {
+  text-decoration: none;
+}
+
+article.card .card_header > p {
+  text-align: left;
+}
+
+article.card .filler {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+article.card .episode {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: var(--gray);
+  font-weight: 700;
+  font-size: small;
+}
+
+article.team .team_member {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 125px;
+} 
+
+article.team .socials {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+article.team .socials a {
+  display: inline-flex;
+  margin: var(--space-1);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-decoration: none;
+  width: 1.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  overflow: hidden;
+}
+
+div.episode_container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+article.episode_details {
+  max-width: 960px;
+}
+
+article.episode_details .card {
+  max-width: 840px;
+}
+
+article.episode_details a,
+article.episode_details a:visited {
+  color: var(--redish);
+}
+
+article.episode_details .chronicles ul {
+  display: block;
+  list-style: none;
+}
+
+article.episode_details .chronicles li {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+article.episode_details .chronicles h2 {
+  margin-bottom: 2rem;
+}
+
+article.episode_details .chronicles li h3.chronicle_name {
+  margin-bottom: 1rem;
+  margin-left: -2rem;
+}
+
+article.episode_details .links {
+  display: flex;
+  flex-flow: row;  
+  margin-bottom: 2rem;
+  justify-content: space-evenly;
+}
+
+article.episode_details .links > .link {
+  display: flex;
+  flex-flow: row;  
+  align-items: center;
+}
+
+article.episode_details .links > .link:not(:last-child) {
+  margin-right: 2rem;
+}
+
+article.episode_details .links > .link > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+article.episode_details .links  > .link a.social {
+  display: inline-flex;
+  margin: var(--space-1);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-decoration: none;
+  width: 2.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  overflow: hidden;
+}
+
+
+article.person_details {
+}
+
+article.person_details .person_data h1 {
+  font-size: 2rem;
+}
+
+article.person_details .photo {
+  float: right;
+  margin-left: 2rem;
+}
+
+article.person_details .photo img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+} 
+
+article.person_details a,
+article.person_details a:visited {
+  color: var(--redish);
+}
+
+article.person_details .socials {
+}
+
+article.person_details .socials a {
+  display: inline-flex;
+  margin: var(--space-1);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-decoration: none;
+  width: 2.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  overflow: hidden;
+}
+
+@media (max-width: 30em) {
+  article.person_details .photo {
+    float: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-left: 0;
+  }  
+  article.person_details .person_data {
+    float: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 2rem;
+  }  
+  article.person_details .socials {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+}
