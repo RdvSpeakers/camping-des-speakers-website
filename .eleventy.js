@@ -45,6 +45,8 @@ export default function (eleventyConfig) {
    */
   eleventyConfig.addPassthroughCopy('css')
   eleventyConfig.addPassthroughCopy('img')
+  eleventyConfig.addPassthroughCopy('CNAME')
+
 
   /**
    * Have Eleventy watch the following additional files for live browsersync
