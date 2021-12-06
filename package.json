@@ -1,7 +1,7 @@
 {
   "name": "camping-des-speakers",
   "version": "0.1.0",
-  "description": "*Le Camping des Speakers* est une déclinaison \"physique\" des [*Rendez-vous des Speakers*](https://rdv-speakers.fr/).L'idée est de se rencontrer tous, organisateurs, speakers et participants, dans un environnement différent des conférences habituelles.", 
+  "description": "Le Camping des Speakers est une déclinaison physique des Rendez-vous des Speakers. L'idée est de se rencontrer tous, organisateurs, speakers et participants, dans un environnement différent des conférences habituelles.", 
   "main": "index.js",
   "scripts": {
     "build": "ELEVENTY_ENV=production node -r esm node_modules/.bin/eleventy",
