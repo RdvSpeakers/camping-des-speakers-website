@@ -1,7 +1,7 @@
 {
   "name": "camping-des-speakers",
   "version": "0.1.0",
-  "description": "*Le Camping des speakers* est une conférence technique destinée aux développeurs et développeuses. Elle s'adresse aussi bien aux étudiant•e•s, aux professionnels ou tout simplement aux curieux et curieuses technophiles. Situation sanitaire oblige, l'édition 2020 de La Rentrée des Speakers 2020 se fera en ligne., ... ",
+  "description": "*Le Camping des Speakers* est une déclinaison \"physique\" des [*Rendez-vous des Speakers*](https://rdv-speakers.fr/).L'idée est de se rencontrer tous, organisateurs, speakers et participants, dans un environnement différent des conférences habituelles.", 
   "main": "index.js",
   "scripts": {
     "build": "ELEVENTY_ENV=production node -r esm node_modules/.bin/eleventy",
