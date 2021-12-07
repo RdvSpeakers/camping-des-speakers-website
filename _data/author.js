@@ -19,31 +19,31 @@ export default {
   name: {
     fullName: 'Horacio Gonzalez',
     givenName: 'Horacio',
-    surname: 'Gonzalez'
+    surname: 'Gonzalez',
   },
   social: {
     // Add or remove accounts for social media platforms
     accounts: [
       {
         name: 'GitHub',
-        url: 'https://github.com/LostInBrittany/'
+        url: 'https://github.com/LostInBrittany/',
       },
       {
         name: 'GitLab',
-        url: 'https://gitlab.com/LostInBrittany/'
+        url: 'https://gitlab.com/LostInBrittany/',
       },
       {
         name: 'Instagram',
-        url: 'https://www.instagram.com/LostInBrittany/'
+        url: 'https://www.instagram.com/LostInBrittany/',
       },
       {
         name: 'LinkedIn',
-        url: 'https://linkedin.com/in/horaciogonzalez/'
+        url: 'https://linkedin.com/in/horaciogonzalez/',
       },
       {
         name: 'Twitter',
-        url: 'https://twitter.com/LostInBrittany/'
+        url: 'https://twitter.com/LostInBrittany/',
       }
-    ]
-  }
+    ],
+  },
 }

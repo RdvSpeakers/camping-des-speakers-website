@@ -20,6 +20,6 @@ export default {
     generator: '🏗️ Créé par <a href=\"https://twitter.com/LostInBrittany\">@LostInBrittany</a>',
     languages: 'Code source écrit en 🍦 vanilla JavaScript, 🕸️ HTML semantique, 🎨 CSS progressivement améliorée, et 🧂 un soupçon de Markdown.',
     git: '💝 Basé sur le <a href=\"http://gitlab.com/reubenlillie/eleventy-dot-js-blog/\">eleventy-dot-js-blog</a> starter pour <a href=\"https://11ty.dev/\">🕚  Eleventy</a>, le générateur de sites statiques.',
-    host: '🚀 Hébérgé sur <a href="https://pages.github.com/">GitHub Pages</a>'
-  }
+    host: '🚀 Hébérgé sur <a href="https://pages.github.com/">GitHub Pages</a>',
+  },
 }

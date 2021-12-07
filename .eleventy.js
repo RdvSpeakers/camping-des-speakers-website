@@ -6,7 +6,7 @@
  */
 
 // Require native Node.js modules
-import { readFileSync } from 'fs'
+import { readFileSync } from 'fs';
 
 /**
  * Require the includes module for the following.
@@ -19,7 +19,7 @@ import { readFileSync } from 'fs'
  * rather than all in this file,
  * helps keep the codebase organized—at least that’s the idea.
  */
-import includes from './_includes/'
+import includes from './_includes/';
 
 /**
  * 11ty’s configuration module
@@ -37,26 +37,26 @@ export default function (eleventyConfig) {
    * Combine data in the Eleventy data cascade, rather than overwriting it
    * @see {@link https://www.11ty.dev/docs/data-deep-merge/ Data deep merge in 11ty}
    */
-  eleventyConfig.setDataDeepMerge(true)
+  eleventyConfig.setDataDeepMerge(true);
 
   /**
    * Copy static assets to the output directory
    * @see {@link https://www.11ty.dev/docs/copy/ Passthrough copy in 11ty}
    */
-  eleventyConfig.addPassthroughCopy('css')
-  eleventyConfig.addPassthroughCopy('img')
-  eleventyConfig.addPassthroughCopy('CNAME')
+  eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy('img');
+  eleventyConfig.addPassthroughCopy('CNAME');
 
 
   /**
    * Have Eleventy watch the following additional files for live browsersync
    * @see @{@link https://www.11ty.dev/docs/config/#add-your-own-watch-targets Add your own watch targets in 11ty}
    */
-  eleventyConfig.addWatchTarget('./**/*.css')
-  eleventyConfig.addWatchTarget('./**/*.js')
-  eleventyConfig.addWatchTarget('./**/*.md')
-  eleventyConfig.addWatchTarget('./**/*.jpg')
-  eleventyConfig.addWatchTarget('./**/*.png')
+  eleventyConfig.addWatchTarget('./**/*.css');
+  eleventyConfig.addWatchTarget('./**/*.js');
+  eleventyConfig.addWatchTarget('./**/*.md');
+  eleventyConfig.addWatchTarget('./**/*.jpg');
+  eleventyConfig.addWatchTarget('./**/*.png');
 
   /**
    * Serve the rendered 404 page when using `eleventy --serve` locally
@@ -72,7 +72,7 @@ export default function (eleventyConfig) {
           // Add 404 http status code in request header
           // res.writeHead(404, { "Content-Type": "text/html" })
           res.writeHead(404);
-          res.end()
+          res.end();
         })
       }
     }
