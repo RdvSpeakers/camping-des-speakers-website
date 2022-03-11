@@ -11,4 +11,4 @@ Afin d'organiser cette première édition du Camping des Speakers, nous avons be
 
 La recherche de sponsors est ouverte, n'hésitez pas à nous contacter !
 
-[Dossier de sponsoring](https://drive.google.com/file/d/1hswml-KHsNFz0HCGFDo636XadrV6aGkJ/view?usp=sharing)
+[Dossier de sponsoring](https://drive.google.com/file/d/1uL6v7UxJ5Cni_i6wi6O3D6tM7neDihpn/view?usp=sharing)
