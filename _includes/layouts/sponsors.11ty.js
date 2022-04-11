@@ -1,5 +1,5 @@
 /**
- * @file Defines the chained template for a sponsor page
+ * @file Defines the chained template for the team page
  * @author Horacio Gonzalez <horacio.gonzalez@gmail.com>
  * @see {@link https://www.11ty.dev/docs/layouts/#layout-chaining Layout chaining in 11ty}
  */
@@ -11,9 +11,9 @@
  export var data = {
     layout: 'layouts/base'
   }
-
+  
   /**
-   * The content of the person page template
+   * The content of the template
    * @method
    * @name render()
    * @param {Object} data 11ty’s data object
@@ -21,6 +21,15 @@
    * @see {@link https://www.11ty.dev/docs/pagination/ Pagination in 11ty}
    */
   export function render(data) {
-    return ``;
-  
+    return `<article>
+      <header class="article-header">
+        <h2>${data.title}</h2>
+      </header>
+      ${data.content}
+      ${this.sponsors(data, data.pagination.items)}
+      <footer>
+        ${this.paginationNav(data)}
+      </footer>
+    </article>`
   }
+  

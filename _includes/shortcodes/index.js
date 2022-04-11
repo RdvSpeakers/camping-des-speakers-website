@@ -25,6 +25,7 @@ import siteFooter from './site-footer.js'
 import siteHeader from './site-header.js'
 import socialMeta from './social-meta.js'
 import socialIcons from './social-icons.js'
+import sponsors from './sponsors.js'
 import team from './team.js'
 import titleTag from './title-tag.js'
 
@@ -59,6 +60,7 @@ export default function (eleventyConfig) {
   siteHeader(eleventyConfig)
   socialMeta(eleventyConfig)
   socialIcons(eleventyConfig)
+  sponsors(eleventyConfig)
   titleTag(eleventyConfig)
   team(eleventyConfig)
   

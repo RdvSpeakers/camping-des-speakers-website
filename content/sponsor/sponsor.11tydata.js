@@ -4,7 +4,7 @@
  */
 
 /**
- * Directory data module for team
+ * Directory data module for sponsors
  * @module content/sponsor
  * @see {@link https://www.11ty.dev/docs/data-template-dir/ Template and directory data files in 11ty}
  * @see {@link  https://www.11ty.dev/docs/permalinks/ Permalinks in 11ty}

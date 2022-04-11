@@ -62,6 +62,9 @@ export default {
       // The aria-label for the last page within a pagination navigation
       lastLabel: 'Dernière page'
     },
+    sponsors: {
+      url: 'sponsors',
+    },
     team: {
       url: 'team',
     },
