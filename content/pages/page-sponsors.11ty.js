@@ -14,7 +14,7 @@
     navTitle: 'Sponsors',
     tags: 'nav',
     weight: 3,
-    layout: 'layouts/sponsors',
+    layout: 'layouts/sponsors/list',
     templateEngineOverride: '11ty.js',
     pagination: {
       data: 'collections.sponsor',

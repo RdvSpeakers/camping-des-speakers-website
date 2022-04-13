@@ -48,7 +48,6 @@ export default eleventyConfig =>
                   : item.data.title
                 }</a></li>`
               ).join('\n')}
-              <li><a href="https://conference-hall.io/public/event/0Ij6N6UQOInRF9fdEm6G">CFP</a>
           </ul>
         </nav>`
       : ''

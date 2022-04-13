@@ -1,3 +1,5 @@
+import * as util from 'util' // has no default export
+
 /**
  * @file Defines a shortcode for displaying an archive of content
  * @author Horacio Gonzalez <horacio.gonzalez@gmail.com>
@@ -24,20 +26,121 @@
  eleventyConfig.addShortcode('sponsors', function (data, arr) {
 
     var l10n = data.site[data.locale]
-    return `<section class="grid gap 4096">
-        <div id="partner-category-4096" class="partner-category">
-        </div>
-        ${arr
-        .filter(item => item.category == 4096)
-        .map(item =>
-        ``).join('\n')}    
-    </section>
-    <section class="grid gap 2048">
-    </section>
-    <section class="grid gap 1024">
-    </section>
-    <section class="grid gap 512">
-    </section>
-    <section class="grid gap community">
-    </section>`
+    return `
+    
+      ${arr.filter(item => item.data.category == 4096).length > 0 ? 
+        `<div class="sponsor-category"><h1>Sponsors 4096</h1></div>
+          <section class="grid gap 4096">
+            ${arr
+            .filter(item => item.data.category == 4096)
+            .map(item =>
+              `<article class="card">
+                <div class="card_content">
+                  <div class="card_header">
+                    <h2 class="no-margin">
+                      <a href="${this.url(item.data.url)}">${item.data.title}</a>
+                    </h2>
+                  </div>
+                  <div class="filler">  
+                    <div><a href="${this.url(item.data.url)}">
+                      <img src="/img/${this.url(item.data.logoURL)}" />
+                    </a></div>
+                  </div>
+                </div>
+              </article>`)
+            .join('\n')}   
+          </section>` 
+      : ''}
+      ${arr.filter(item => item.data.category == 2048).length > 0 ? 
+        `<div class="sponsor-category"><h1>Sponsors 2048</h1></div>
+        <section class="grid gap 2048">
+          ${arr
+          .filter(item => item.data.category == 2048)
+          .map(item =>
+            `<article class="card">
+              <div class="card_content">
+                <div class="card_header">
+                  <h2 class="no-margin">
+                    <a href="${this.url(item.data.url)}">${item.data.title}</a>
+                  </h2>
+                </div>  
+                <div class="filler">  
+                  <div><a href="${this.url(item.data.url)}">
+                    <img src="/img/${this.url(item.data.logoURL)}" />
+                  </a></div>
+                </div>
+              </div>
+            </article>`)
+          .join('\n')}   
+        </section>` 
+      : ''}
+      ${arr.filter(item => item.data.category == 1024).length > 0 ? 
+        `<div class="sponsor-category"><h1>Sponsors 1024</h1></div>
+        <section class="grid gap 1024">
+          ${arr
+          .filter(item => item.data.category == 1024)
+          .map(item =>
+            `<article class="card">
+              <div class="card_content">
+                <div class="card_header">
+                  <h2 class="no-margin">
+                    <a href="${this.url(item.data.url)}">${item.data.title}</a>
+                  </h2>
+                </div>  
+                <div class="filler">  
+                  <div><a href="${this.url(item.data.url)}">
+                    <img src="/img/${this.url(item.data.logoURL)}" />
+                  </a></div>
+                </div>
+              </div>
+            </article>`)
+          .join('\n')}   
+        </section>`
+      : ''}
+      ${arr.filter(item => item.data.category == 512).length > 0 ? 
+        `<div class="sponsor-category"><h1>Sponsors 512</h1></div>
+        <section class="grid gap 512">
+          ${arr
+          .filter(item => item.data.category == 512)
+          .map(item =>
+            `<article class="card">
+              <div class="card_content">
+                <div class="card_header">
+                  <h2 class="no-margin">
+                    <a href="${this.url(item.data.url)}">${item.data.title}</a>
+                  </h2>
+                </div>  
+                <div class="filler">  
+                  <div><a href="${this.url(item.data.url)}">
+                    <img src="/img/${this.url(item.data.logoURL)}" />
+                  </a></div>
+                </div>
+              </div>
+            </article>`)
+          .join('\n')}   
+        </section>`
+      : ''}
+      ${arr.filter(item => item.data.category == 'communities').length > 0 ? 
+        `<div class="sponsor-category"><h1>Communautés</h1></div>
+        <section class="grid gap communities">
+          ${arr
+          .filter(item => item.data.category == 'communities')
+          .map(item =>
+            `<article class="card">
+              <div class="card_content">
+                <div class="card_header">
+                  <h2 class="no-margin">
+                    <a href="${this.url(item.data.url)}">${item.data.title}</a>
+                  </h2>
+                </div>  
+                <div class="filler"> 
+                  <div><a href="${this.url(item.data.url)}">
+                    <img src="/img/${this.url(item.data.logoURL)}" />
+                  </a></div>
+                </div>
+              </div>
+            </article>`)
+          .join('\n')}   
+        </section>`
+      : ''}`
  })
