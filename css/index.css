@@ -362,6 +362,11 @@ article.card .filler {
   flex-grow: 1;
 }
 
+article.card img {
+  max-width: 100%;
+  max-height: 80%;
+}
+
 article.card .episode {
   display: flex;
   flex-flow: row;
@@ -510,6 +515,14 @@ article.person_details .socials a {
   padding-left: 0.5em;
   padding-right: 0.5em;
   overflow: hidden;
+}
+
+.sponsor-category {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 30em) {
