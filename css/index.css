@@ -525,6 +525,10 @@ article.person_details .socials a {
   margin-bottom: 1rem;
 }
 
+.center {
+  text-align: center;
+}
+
 @media (max-width: 30em) {
   article.person_details .photo {
     float: none;

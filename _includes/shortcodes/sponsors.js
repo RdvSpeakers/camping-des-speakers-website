@@ -44,7 +44,7 @@ import * as util from 'util' // has no default export
                     </h2>
                   </div>
                   <div class="filler">  
-                    <div><a href="${this.url(item.data.url)}">
+                    <div class="center"><a href="${this.url(item.data.url)}">
                       <img src="/img/${this.url(item.data.logoURL)}" />
                     </a></div>
                   </div>
@@ -67,7 +67,7 @@ import * as util from 'util' // has no default export
                   </h2>
                 </div>  
                 <div class="filler">  
-                  <div><a href="${this.url(item.data.url)}">
+                  <div class="center"><a href="${this.url(item.data.url)}">
                     <img src="/img/${this.url(item.data.logoURL)}" />
                   </a></div>
                 </div>
@@ -90,7 +90,7 @@ import * as util from 'util' // has no default export
                   </h2>
                 </div>  
                 <div class="filler">  
-                  <div><a href="${this.url(item.data.url)}">
+                  <div class="center"><a href="${this.url(item.data.url)}">
                     <img src="/img/${this.url(item.data.logoURL)}" />
                   </a></div>
                 </div>
@@ -113,7 +113,7 @@ import * as util from 'util' // has no default export
                   </h2>
                 </div>  
                 <div class="filler">  
-                  <div><a href="${this.url(item.data.url)}">
+                  <div class="center"><a href="${this.url(item.data.url)}">
                     <img src="/img/${this.url(item.data.logoURL)}" />
                   </a></div>
                 </div>
@@ -136,7 +136,7 @@ import * as util from 'util' // has no default export
                   </h2>
                 </div>  
                 <div class="filler"> 
-                  <div><a href="${this.url(item.data.url)}">
+                  <div class="center"><a href="${this.url(item.data.url)}">
                     <img src="/img/${this.url(item.data.logoURL)}" />
                   </a></div>
                 </div>
