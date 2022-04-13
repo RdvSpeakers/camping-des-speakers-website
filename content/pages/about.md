@@ -3,6 +3,7 @@ title: Le Camping des Speakers
 navTitle: À propos
 tags: nav
 weight: 2
+permalink: about
 ---
 
 *Le Camping des Speakers* est une déclinaison "physique" des [*Rendez-vous des Speakers*](https://rdv-speakers.fr/).

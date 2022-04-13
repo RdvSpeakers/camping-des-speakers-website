@@ -23,6 +23,8 @@ import * as util from 'util' // has no default export
   * @example `${this.archive(data, data.pagination.items)}`
   * @see {@link https://www.11ty.dev/docs/data/ Using data in 11ty}
   */
+
+  
  eleventyConfig.addShortcode('sponsors', function (data, arr) {
 
     var l10n = data.site[data.locale]
