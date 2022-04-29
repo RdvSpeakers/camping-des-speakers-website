@@ -44,7 +44,7 @@ function speakerNameAndPic(data, speaker){
       <h2>${data.title}</h2>      
       <div>
         <div class="when">${data.time} - ${data.duration}</div>
-        <div class="where">${data.site[data.locale].rooms[data.room]}</div>
+        <div class="where">${data.site[data.locale].rooms[data.room].name}</div>
       </div>
 
       <div class="content">      

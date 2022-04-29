@@ -1,6 +1,6 @@
 ---
 key: et_si_on_faisait_le_tour_de_cors
-title: "Et si on faisait le tour de CORS ? ⛵"
+title: "Et si on faisait le tour de CORS&nbsp;?&nbsp;⛵"
 speakers:
   - cedric_gatay
 type: tente_cannadienne

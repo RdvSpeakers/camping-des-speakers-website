@@ -47,7 +47,7 @@ function sessionGrid(data, sessions) {
             if (a.data.time.localeCompare(b.data.time) != 0) {
                 return a.data.time.localeCompare(b.data.time);
             }
-            return data.site[data.locale].rooms[a.data.room] -  data.site[data.locale].rooms[b.data.room];
+            return data.site[data.locale].rooms[a.data.room].id -  data.site[data.locale].rooms[b.data.room].id;
         })
         .map(item =>
       `<article class="card session">
@@ -71,7 +71,7 @@ function sessionGrid(data, sessions) {
           </div>
           <div>
             <div class="when">${item.data.time} - ${item.data.duration}</div>
-            <div class="where">${data.site[data.locale].rooms[item.data.room]}</div>
+            <div class="where">${data.site[data.locale].rooms[item.data.room].name}</div>
           </div>
         </div>
       </article>`).join('')}

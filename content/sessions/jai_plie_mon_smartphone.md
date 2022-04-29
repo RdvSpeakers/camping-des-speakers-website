@@ -1,6 +1,6 @@
 ---
 key: jai_plie_mon_smartphone
-title: "J'ai plié mon smartphone et il ne s'est pas cassé... mais ma web app si 😒"
+title: "J'ai plié mon smartphone et il ne s'est pas cassé... mais ma web app si&nbsp;😒"
 speakers:
   - olivier_leplus
   - yohan_lasorsa
