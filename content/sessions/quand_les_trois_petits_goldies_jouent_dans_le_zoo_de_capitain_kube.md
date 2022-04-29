@@ -1,6 +1,6 @@
 ---
 key: quand_les_trois_petits_goldies_jouent_dans_le_zoo_de_capitain_kube
-title: "Quand \"Les trois petits goldies\" jouent dans le zoo de Capitain kube (édition slasher)"
+title: "Quand 'Les trois petits goldies' jouent dans le zoo de Capitain kube (édition slasher)"
 speakers:
   - jerome_masson
 type: tente_canadienne
