@@ -363,8 +363,6 @@ article.card .filler {
 }
 
 article.card img {
-  max-width: 100%;
-  max-height: 80%;
 }
 
 article.card .episode {
@@ -375,6 +373,12 @@ article.card .episode {
   font-weight: 700;
   font-size: small;
 }
+
+article.sponsor .filler img {
+  max-width:100%;
+  max-height: 80%;;
+}
+
 
 article.team .team_member {
   display: block;
@@ -477,6 +481,9 @@ article.episode_details .links  > .link a.social {
 
 
 article.person_details {
+  max-width: 150ch;
+  margin: 0 auto;
+
 }
 
 article.person_details .person_data h1 {

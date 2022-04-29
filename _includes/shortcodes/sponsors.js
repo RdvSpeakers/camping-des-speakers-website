@@ -38,7 +38,7 @@ export default eleventyConfig =>
           ${arr
           .filter(item => item.data.category == 4096)
           .map(item =>
-            `<article class="card">
+            `<article class="sponsor card">
               <div class="card_content">
                 <div class="card_header">
                   <h2 class="no-margin">
@@ -63,7 +63,7 @@ export default eleventyConfig =>
           ${arr
           .filter(item => item.data.category == 2048)
           .map(item =>
-            `<article class="card">
+            `<article class="sponsor card">
               <div class="card_content">
                 <div class="card_header">
                   <h2 class="no-margin">
@@ -86,7 +86,7 @@ export default eleventyConfig =>
           ${arr
           .filter(item => item.data.category == 1024)
           .map(item =>
-            `<article class="card">
+            `<article class="sponsor card">
               <div class="card_content">
                 <div class="card_header">
                   <h2 class="no-margin">
@@ -111,7 +111,7 @@ export default eleventyConfig =>
           ${arr
           .filter(item => item.data.category == 512)
           .map(item =>
-            `<article class="card">
+            `<article class="sponsor card">
               <div class="card_content">
                 <div class="card_header">
                   <h2 class="no-margin">
@@ -134,7 +134,7 @@ export default eleventyConfig =>
           ${arr
           .filter(item => item.data.category == 'communities')
           .map(item =>
-            `<article class="card">
+            `<article class="sponsor card">
               <div class="card_content">
                 <div class="card_header">
                   <h2 class="no-margin">
