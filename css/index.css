@@ -552,9 +552,7 @@ article.sessions-list h3 {
 }
 
 .card.session li.speaker {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
+  width: 100%;
 }
 
 
@@ -562,6 +560,23 @@ article.sessions-list h3 {
 .card.session li.speaker:not(:last-child) { 
   margin-bottom: 0.5rem;  
 }
+
+
+.card.session li.speaker a {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+}
+
+
+.card.session li.speaker {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+}
+
 
 .card.session .speakers .speaker_pic {
   --img-size: 2.5rem;

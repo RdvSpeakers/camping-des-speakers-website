@@ -1,13 +1,13 @@
 ---
 key: jonglons_avec_les_microarchitectures
-title: "Jonglons avec les microarchitectures front 🤹"
+title: "Jonglons avec les microarchitectures front&nbsp;🤹"
 speakers:
   - jean-francois_garreau 
 type: autour_du_feu
 day: 0
 time: 13h30
 duration: 20 minutes
-room: slideless
+room: autour_du_feu
 ---
 
 D'un côté, le monde du web 🌐 qui évolue tout le temps et qui propose toujours plus de réutilisabilité grâce à des concepts comme les web components. Si on continue sur ce chemin, on va découvrir ce buzz. word du moment : "les micro-architectures front".

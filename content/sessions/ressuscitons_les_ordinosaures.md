@@ -1,6 +1,6 @@
 ---
 key: ressuscitons_les_ordinosaures
-title: "Ressuscitons les ordinosaures !"
+title: "Ressuscitons les ordinosaures&nbsp;!"
 speakers:
   - olivier_poncet
 type: tente_cannadienne

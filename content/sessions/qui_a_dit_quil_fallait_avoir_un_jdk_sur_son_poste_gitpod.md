@@ -1,6 +1,6 @@
 ---
 key: qui_a_dit_quil_fallait_avoir_un_jdk_sur_son_poste_gitpod
-title: "Qui a dit qu’il fallait avoir un JDK sur son poste pour développer une application Java ? Prenez votre IDE Cloud GitPod et le tour est joué 💪"
+title: "Qui a dit qu’il fallait avoir un JDK sur son poste pour développer une application Java ? Prenez votre IDE Cloud GitPod et le tour est joué&nbsp;💪"
 speakers:
   - jean-phi_baconnais
 type: quechua
