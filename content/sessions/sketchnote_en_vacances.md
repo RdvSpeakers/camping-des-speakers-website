@@ -8,7 +8,7 @@ type: tente_cannadienne
 day: 0
 time: 10h15
 duration: 45 minutes
-room: grand_salle
+room: grande_salle
 ---
 
 Vous êtes au camping. Plus de batterie dans le téléphone, ou vous voulez vous reconnecter avec le réel, 

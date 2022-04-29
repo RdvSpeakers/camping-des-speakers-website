@@ -4,6 +4,18 @@
  * @see {@link https://www.11ty.dev/docs/layouts/#layout-chaining Layout chaining in 11ty}
  */
 
+function speakerNameAndPic(data, speaker){
+    return `
+    <li class="speaker">
+        <div class="speaker_pic" 
+        style="background-image: url(${data.site.baseUrl}/img/${speaker.data.photoURL});">
+        </div>
+      <div class="speaker_data">
+        <div class="speaker_name">${speaker.data.name}</div>
+        <div class="speaker_company">${speaker.data.company?speaker.data.company:''}</div>
+      </div>
+    </li>`;
+}
 
 function sessionsByDay(data, sessions) {
     let sessionsByDay = [];
@@ -21,25 +33,33 @@ function sessionsByDay(data, sessions) {
 
 function sessionGrid(data, sessions) {
 
-
     return `
     <h3>${data.site[data.locale].days[sessions[0].data.day].long}</h3>
 
-    <section class="grid gap sessions-day">
+    <section class="grid gap sessions_day">
     ${sessions.map(item =>
       `<article class="card session">
         <div class="card_content">
           <div class="card_header">
-            <h2 class="no-margin">
+            <h4 class="no-margin">
               <a href="${data.site.baseUrl}/${data.site[data.locale].sessions.url }/${item.data.key}/">
                 ${item.data.title}
               </a>
-            </h2>
+            </h4>
           </div>
           <div class="filler">   
-                <div class="when">${item.data.time} - ${item.data.duration}</div>
-                <div class="where">${data.site[data.locale].rooms[item.data.room]}</div>
-                <div class="who">${item.data.speakers.map((speaker) => data.collections.speakers.find(person => person.data.key == speaker).data.name)}</div>
+                <ul class="speakers">
+                    ${item.data.speakers
+                        .map((speaker) => `${speakerNameAndPic(data, 
+                            data.collections.speakers
+                            .find(person => person.data.key == speaker))}`)
+                        .join('')
+                    }
+                </ul>
+          </div>
+          <div>
+            <div class="when">${item.data.time} - ${item.data.duration}</div>
+            <div class="where">${data.site[data.locale].rooms[item.data.room]}</div>
           </div>
         </div>
       </article>`).join('')}
@@ -63,7 +83,7 @@ function sessionGrid(data, sessions) {
    * @see {@link https://www.11ty.dev/docs/pagination/ Pagination in 11ty}
    */
   export function render(data) {
-    return `<article class="sessions-list>
+    return `<article class="sessions-list">
       <header class="article-header">
         <h2>${data.title}</h2>
       </header>
