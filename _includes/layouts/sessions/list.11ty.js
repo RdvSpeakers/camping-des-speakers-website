@@ -7,13 +7,15 @@
 function speakerNameAndPic(data, speaker){
     return `
     <li class="speaker">
-        <div class="speaker_pic" 
-        style="background-image: url(${data.site.baseUrl}/img/${speaker.data.photoURL});">
-        </div>
-      <div class="speaker_data">
-        <div class="speaker_name">${speaker.data.name}</div>
-        <div class="speaker_company">${speaker.data.company?speaker.data.company:''}</div>
-      </div>
+        <a href="${data.site.baseUrl}/${data.site[data.locale].speakers.url}/${speaker.data.key}/">
+            <div class="speaker_pic" 
+            style="background-image: url(${data.site.baseUrl}/img/${speaker.data.photoURL});">
+            </div>
+            <div class="speaker_data">
+                <div class="speaker_name">${speaker.data.name}</div>
+                <div class="speaker_company">${speaker.data.company?speaker.data.company:''}</div>
+            </div>
+        </a>
     </li>`;
 }
 
@@ -38,7 +40,12 @@ function sessionGrid(data, sessions) {
 
     <section class="grid gap sessions_day">
     ${sessions
-        .sort((a,b) => a.data.time.localeCompare(b.data.time))
+        .sort((a,b) => {    
+            if (a.data.time.localeCompare(b.data.time) != 0) {
+                return a.data.time.localeCompare(b.data.time);
+            }
+            return data.site[data.locale].rooms[a.data.room] -  data.site[data.locale].rooms[b.data.room];
+        })
         .map(item =>
       `<article class="card session">
         <div class="card_content">

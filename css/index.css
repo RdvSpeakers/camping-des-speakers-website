@@ -480,8 +480,9 @@ article.episode_details .links  > .link a.social {
 }
 
 
-article.person_details {
-  max-width: 150ch;
+article.person_details,
+article.session_details {
+  max-width: 100ch;
   margin: 0 auto;
 
 }
@@ -577,6 +578,43 @@ article.sessions-list h3 {
 .card.session .speaker_company {
   font-size: 0.75rem;
 }
+
+
+article.session_details {
+
+}
+
+article.session_details div.speakers {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 5rem;
+}
+
+article.session_details div.speaker {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+
+article.session_details div.speaker .speaker_pic {
+  --img-size: 5rem;
+  height: var(--img-size,2.5rem);
+  width: var(--img-size,2.5rem);
+  border-radius: 100%;
+  background-size: cover;
+  margin-right: 1rem;
+}
+
+article.session_details .speaker_name {
+  font-weight: 600;
+}
+article.session_details .speaker_company {
+  font-size: 0.75rem;
+}
+
+
 
 .sponsor-category {
   display: flex;

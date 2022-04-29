@@ -10,6 +10,5 @@ socials:
     link: 'https://www.linkedin.com/in/sébastien-blanc-08a73b1'
   - icon: github
     link: 'https://github.com/sebastienblanc'
-tags: [ 'team' ]
 ---
 

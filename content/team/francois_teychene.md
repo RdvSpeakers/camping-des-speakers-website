@@ -11,6 +11,5 @@ socials:
     link: 'https://www.linkedin.com/in/fteychene'
   - icon: github
     link: 'https://github.com/fteychene'
-tags: [ 'team' ]
 ---
 
