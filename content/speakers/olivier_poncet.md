@@ -3,7 +3,7 @@ key: olivier_poncet
 name: Olivier Poncet
 company: HAWKSWELL
 city: Massy, France
-photoURL: team/olivier_poncet.jpg
+photoURL: speakers/olivier_poncet.jpg
 socials:
   - icon: twitter
     link: https://twitter.com/ponceto91

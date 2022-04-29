@@ -3,7 +3,7 @@ key: gregoire_pineau
 name: Grégoire Pineau
 company: Jolicode
 city: Paris, France
-photoURL: team/gregoire_pineau.jpg
+photoURL: speakers/gregoire_pineau.jpg
 socials:
   - icon: twitter
     link: https://twitter.com/lyrixx

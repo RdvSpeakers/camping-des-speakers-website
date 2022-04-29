@@ -3,7 +3,7 @@ key: jean-francois_garreau
 name: Jean-François Garreau
 company: Sfeir / GDG Nantes
 city: Nantes, France
-photoURL: team/jean-francois_garreau.jpg
+photoURL: speakers/jean-francois_garreau.jpg
 socials:
   - icon: twitter
     link: https://twitter.com/jefbinomed
