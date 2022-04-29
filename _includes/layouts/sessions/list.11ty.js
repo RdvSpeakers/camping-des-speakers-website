@@ -37,7 +37,9 @@ function sessionGrid(data, sessions) {
     <h3>${data.site[data.locale].days[sessions[0].data.day].long}</h3>
 
     <section class="grid gap sessions_day">
-    ${sessions.map(item =>
+    ${sessions
+        .sort((a,b) => a.data.time.localeCompare(b.data.time))
+        .map(item =>
       `<article class="card session">
         <div class="card_content">
           <div class="card_header">
