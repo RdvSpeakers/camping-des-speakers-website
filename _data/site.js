@@ -106,6 +106,7 @@ export default {
       slideless: 'Extérieur',
       grande_salle: 'Grande Salle',
       petite_salle: 'Petite Salle',
+      autour_du_feu: 'Autour du Feu',
     }
   },
 }
