@@ -3,3 +3,4 @@ node_modules/
 
 # Ignore eleventy output during manual tests
 _site/
+.DS_Store
