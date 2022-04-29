@@ -1,6 +1,6 @@
 ---
 key: le_voyage_du_heros
-title: "Expérimenter et parler d’accessibilité numérique"
+title: "Le voyage du héros de l'IT"
 speakers:
   - olivier_beautier
 type: bivouac
