@@ -103,10 +103,10 @@ export default {
       }
     ],
     rooms: {
-      slideless: 'Extérieur',
-      grande_salle: 'Grande Salle',
-      petite_salle: 'Petite Salle',
-      autour_du_feu: 'Autour du Feu',
+      grande_salle: {id: 0, name:'Grande Salle'},
+      petite_salle: {id: 1, name:'Petite Salle'},
+      slideless: {id: 2, name:'Extérieur'},
+      autour_du_feu: {id: 3, name:'Autour du Feu'},
     }
   },
 }

@@ -18,7 +18,7 @@
   templateEngineOverride: '11ty.js',
   pagination: {
     data: 'collections.sessions',
-    size: 20,
+    size: 200,
     alias: 'member',
     reverse: false
   },
