@@ -5,11 +5,14 @@
  */
 
 function speakerNameAndPic(data, speaker){
+    if (!speaker) {
+      return '';
+    }
     return `
     <li class="speaker">
-        <a href="${data.site.baseUrl}/${data.site[data.locale].speakers.url}/${speaker.data.key}/">
+        <a href="../${data.site[data.locale].speakers.url}/${speaker.data.key}/">
             <div class="speaker_pic" 
-            style="background-image: url(${data.site.baseUrl}/img/${speaker.data.photoURL});">
+            style="background-image: url(../img/${speaker.data.photoURL});">
             </div>
             <div class="speaker_data">
                 <div class="speaker_name">${speaker.data.name}</div>
@@ -51,7 +54,7 @@ function sessionGrid(data, sessions) {
         <div class="card_content">
           <div class="card_header">
             <h4 class="no-margin">
-              <a href="${data.site.baseUrl}/${data.site[data.locale].sessions.url }/${item.data.key}/">
+              <a href="../${data.site[data.locale].sessions.url }/${item.data.key}/">
                 ${item.data.title}
               </a>
             </h4>

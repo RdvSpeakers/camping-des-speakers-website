@@ -1,6 +1,6 @@
 ---
 key: notre_recette_de_lequipe_parfaite
-title: "Notre recette de l’équipe parfaite 🧁"
+title: "Notre recette de l’équipe parfaite&nbsp;🧁"
 speakers:
   - estelle_landry
   - yvonnick_frin

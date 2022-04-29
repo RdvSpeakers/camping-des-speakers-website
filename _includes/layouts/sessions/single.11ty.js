@@ -5,7 +5,10 @@
  */
 
 
- function speakerNameAndPic(data, speaker){
+function speakerNameAndPic(data, speaker){
+  if (!speaker) {
+    return '';
+  }
   return `<a href="${data.site.baseUrl}/${data.site[data.locale].speakers.url}/${speaker.data.key}/">
     <div class="speaker">
         <div class="speaker_pic" 
