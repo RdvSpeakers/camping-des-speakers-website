@@ -30,6 +30,7 @@ export function render(data) {
     <div class="nextEpisode">   
     <h2>${l10n.tagline}</h2>
     <h3>${l10n.when}</h3>
+    <a href=${l10n.where.link}>${l10n.where.address}</a>
     </div>
 
   `
