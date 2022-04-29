@@ -6,7 +6,7 @@ speakers:
 type: autour_du_feu
 day: 0
 time: 16h00
-duration: 20 minutes
+duration: 15 minutes
 room: autour_du_feu
 ---
 
