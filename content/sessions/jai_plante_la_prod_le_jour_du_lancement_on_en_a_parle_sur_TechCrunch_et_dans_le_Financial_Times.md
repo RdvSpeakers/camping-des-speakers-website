@@ -7,7 +7,7 @@ type: autour_du_feau
 day: 1
 time: 13h30
 duration: 15 minutes
-room: slideless
+room: autour_du_feu
 ---
 
 Il y a plus de 10 ans j'ai eu l'opportunité de travailler sur Joost, le "next project" des fondateurs de Skype. Un projet ambitieux qui aurait pu devenir Netflix mais est arrivé trop tôt.

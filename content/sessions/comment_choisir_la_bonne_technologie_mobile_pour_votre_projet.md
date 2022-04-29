@@ -3,6 +3,7 @@ key: comment_choisir_la_bonne_technologie_mobile_pour_votre_projet
 title: "Comment choisir la bonne technologie mobile pour votre projet"
 speakers:
   - elaine_dias_batista
+  - oussama_ben_wafi
 type: tente_cannadienne
 day: 1
 time: 10h15
