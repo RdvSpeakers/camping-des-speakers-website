@@ -62,6 +62,9 @@ export default {
       // The aria-label for the last page within a pagination navigation
       lastLabel: 'Dernière page'
     },
+    sessions: {
+      url: 'sessions',
+    },
     speakers: {
       url: 'speakers',
     },
@@ -89,5 +92,20 @@ export default {
       // The `aria-label` to apply to the primary navigation
       primary: 'primary navigation'
     },
+    days: [
+      { 
+        long: 'Jeudi, 9 juin 2022',
+        short: '2022/06/09'
+      },
+      { 
+        long: 'Vendredi, 10 juin 2022',
+        short: '2022/06/10'
+      }
+    ],
+    rooms: {
+      slideless: 'Extérieur',
+      grande_salle: 'Grande Salle',
+      petite_salle: 'Petite Salle',
+    }
   },
 }

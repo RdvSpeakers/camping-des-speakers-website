@@ -1,9 +1,10 @@
 ---
+key: la_cuisine_ma_sauve_du_burnout
 title: "La Cuisine m'a sauvé du Burn-out"
 speakers:
   - yannick_guern
 type: bivouac
-day: Jeudi 9 juin
+day: 0
 time: 11h15
 duration: 45 minutes
 room: slideless

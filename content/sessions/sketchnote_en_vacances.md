@@ -1,10 +1,11 @@
 ---
+key: sketchnote_en_vacances
 title: "Sketchnote en Vacances"
 speakers:
   - marc_dugue
   - sylvain_calmet
 type: tente_cannadienne
-day: Jeudi 9 juin
+day: 0
 time: 10h15
 duration: 45 minutes
 room: grand_salle

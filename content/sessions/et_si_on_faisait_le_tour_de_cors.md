@@ -1,9 +1,10 @@
 ---
+key: et_si_on_faisait_le_tour_de_cors
 title: "Et si on faisait le tour de CORS ? ⛵"
 speakers:
   - cedric_gatay
 type: tente_cannadienne
-day: Jeudi 9 juin
+day: 0
 time: 11h15
 duration: 45 minutes
 room: petite_salle

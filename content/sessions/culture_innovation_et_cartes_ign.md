@@ -1,9 +1,10 @@
 ---
+key: culture_innovation_et_cartes_ign
 title: "Culture, innovation et cartes IGN"
 speakers:
   - william_bartlett
 type: bivouac
-day: Jeudi 9 juin
+day: 0
 time: 10h15
 duration: 45 minutes
 room: slideless

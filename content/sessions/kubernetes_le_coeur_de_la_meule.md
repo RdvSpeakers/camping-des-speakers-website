@@ -1,9 +1,10 @@
 ---
+key: kubernetes_le_coeur_de_la_meule
 title: "Kubernetes : le coeur de la meule … comme vous ne l’avez jamais vu"
 speakers:
   - aurelie_vache 
 type: bivouac
-day: Jeudi 9 juin
+day: 0
 time: 13h30
 duration: 45 minutes
 room: slideless

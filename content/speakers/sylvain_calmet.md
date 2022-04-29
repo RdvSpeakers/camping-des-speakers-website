@@ -1,7 +1,7 @@
 ---
 key: sylvain_calmet
 name: Sylvain Calmet
-company: Fenikso
+company: Rail Europe
 city: Nantes, France
 photoURL: speakers/sylvain_calmet.jpg
 socials:

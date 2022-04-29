@@ -1,9 +1,10 @@
 ---
+key: comment_jai_aide_ma_fille_a_lire_avec_le_ml
 title: "Comment j'ai aidé ma fille à lire avec le machine learning"
 speakers:
   - vincent_ogloblinsky
 type: quechua
-day: Jeudi 9 juin
+day: 0
 time: 16h30
 duration: 20 minutes
 room: grande_salle

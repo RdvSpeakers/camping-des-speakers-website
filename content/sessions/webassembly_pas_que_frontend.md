@@ -1,9 +1,10 @@
 ---
+key: webassembly_pas_que_frontend
 title: "WebAssembly n'est pas qu'une affaire de frontend"
 speakers:
   - benjamin_coenen
 type: tente_cannadienne
-day: Jeudi 9 juin
+day: 0
 time: 10h15
 duration: 45 minutes
 room: petite_salle

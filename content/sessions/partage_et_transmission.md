@@ -1,10 +1,11 @@
 ---
+key: partage_et_transmission
 title: "Partage et transmission : ratages et amélioration"
 speakers:
   - cecile_freyd-foucault
   - jordane_grenat
 type: bivouac
-day: Jeudi 9 juin
+day: 0
 time: 17h10
 duration: 20 minutes
 room: slideless

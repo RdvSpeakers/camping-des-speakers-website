@@ -11,7 +11,7 @@ socials:
     link: 'https://www.linkedin.com/in/horaciogonzalez'
   - icon: github
     link: 'https://github.com/LostInBrittany'
-tags: [ 'team' ]
+tags: [ 'team', 'speakers' ]
 ---
 
 Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a plus d’une vingtaine d’années. Passionné d’informatique, dans laquelle il est tombé depuis tout petit, il a découvert le développement web en 1997 et depuis il n’a pas arrêté de bosser autour.

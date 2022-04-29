@@ -1,13 +1,14 @@
 ---
+key: notre_recette_de_lequipe_parfaite
 title: "Notre recette de l’équipe parfaite 🧁"
 speakers:
   - estelle_landry
   - yvonnick_frin
 type: tente_cannadienne
-day: Jeudi 9 juin
+day: 0
 time: 11h15
 duration: 45 minutes
-room: grand_salle
+room: grande_salle
 ---
 
 A l’instar de la bonne cuisine, un bon travail d’équipe se prépare avec soin. Des recettes bien connues (comme Shape up (Basecamp) ou le modèle Spotify) ont été partagées dans le monde entier… Mais le soufflé est vite retombé et les “bonnes recettes” tournent souvent en eau de boudin à la réalisation.

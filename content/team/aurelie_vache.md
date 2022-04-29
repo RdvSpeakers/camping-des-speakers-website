@@ -11,6 +11,6 @@ socials:
   - icon: github
     link: https://github.com/scraly
     name: scraly
-tags: [ 'team' ]
+tags: [ 'team', 'speakers' ]
 ---
 
