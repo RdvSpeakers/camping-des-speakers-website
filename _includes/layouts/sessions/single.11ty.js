@@ -12,7 +12,7 @@ function speakerNameAndPic(data, speaker){
   return `<a href="${data.site.baseUrl}/${data.site[data.locale].speakers.url}/${speaker.data.key}/">
     <div class="speaker">
         <div class="speaker_pic" 
-        style="background-image: url(${data.site.baseUrl}/img/${speaker.data.photoURL});">
+        style="background-image: url(../../img/${speaker.data.photoURL});">
         </div>
       <div class="speaker_data">
         <div class="speaker_name">${speaker.data.name}</div>

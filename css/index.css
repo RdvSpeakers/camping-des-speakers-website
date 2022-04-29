@@ -530,6 +530,9 @@ article.sessions-list h3 {
   margin-bottom: 2em;
 }
 
+article.sessions-list .sessions_day {
+  margin-bottom: 4rem;
+}
 
 .card.session .filler {
   justify-content: flex-start;
