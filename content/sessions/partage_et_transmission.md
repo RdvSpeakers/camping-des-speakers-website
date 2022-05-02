@@ -7,7 +7,7 @@ speakers:
 type: bivouac
 day: 0
 time: 17h10
-duration: 20 minutes
+duration: 45 minutes
 room: slideless
 ---
 

@@ -34,6 +34,10 @@ export default {
     // used in _includes/shortcodes/site-header
     tagline: "Conférence de Devs dans le Golfe du Morbihan",
     when: "9-10 Juin 2022",
+    where: {
+      address: "52 Rue Mané er Groez, 56870 Baden",
+      link: "https://www.google.com/maps/place/52%20Rue%20Man%C3%A9%20er%20Groez%2C%2056870%20Baden%2C%20France"
+    },
     // Punctuation between a title and subtitle,
     // used in _includes/shortcodes/title-tag
     separator: ' - ',
@@ -92,21 +96,20 @@ export default {
       // The `aria-label` to apply to the primary navigation
       primary: 'primary navigation'
     },
-    days: [
-      { 
+    days: [{
         long: 'Jeudi, 9 juin 2022',
         short: '2022/06/09'
       },
-      { 
+      {
         long: 'Vendredi, 10 juin 2022',
         short: '2022/06/10'
       }
     ],
     rooms: {
-      grande_salle: {id: 0, name:'Grande Salle'},
-      petite_salle: {id: 1, name:'Petite Salle'},
-      slideless: {id: 2, name:'Extérieur'},
-      autour_du_feu: {id: 3, name:'Autour du Feu'},
+      grande_salle: { id: 0, name: 'Grande Salle' },
+      petite_salle: { id: 1, name: 'Petite Salle' },
+      slideless: { id: 2, name: 'Extérieur' },
+      autour_du_feu: { id: 3, name: 'Autour du Feu' },
     }
   },
 }
