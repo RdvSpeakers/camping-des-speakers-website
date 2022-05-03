@@ -1,6 +1,6 @@
 ---
 key: lise_quesnel
-name: Cedric Gatay
+name: Lise Quesnel
 company: Zenika
 city: Nantes, France
 photoURL: speakers/lise_quesnel.jpg
