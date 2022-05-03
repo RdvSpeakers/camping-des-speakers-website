@@ -31,7 +31,17 @@ export function render(data) {
     <h2>${l10n.tagline}</h2>
     <h3>${l10n.when}</h3>
     <a href=${l10n.where.link} target="_blank" >${l10n.where.address}</a>
+    
+    <p></p>
+
+    <h2>La billeterie est ouverte !</h2>
+
+    <h3><a href="https://www.billetweb.fr/le-camping-des-speakers" style="color:navy;">
+    https://www.billetweb.fr/le-camping-des-speakers
+    </a></h3>
     </div>
+
+
 
   `
 }
