@@ -27,18 +27,20 @@ export function render(data) {
   return `
     ${this.jumbo(data)}
 
-    <div class="nextEpisode">   
+    <div class="nextEpisode">
+    <h1>${l10n.title}</h1>
     <h2>${l10n.tagline}</h2>
     <h3>${l10n.when}</h3>
     <a href=${l10n.where.link} target="_blank" >${l10n.where.address}</a>
-    
+
     <p></p>
 
     <h2>La billeterie est ouverte !</h2>
+    <a href="https://www.billetweb.fr/le-camping-des-speakers" class="button">J'achète mon billet</a>
 
-    <h3><a href="https://www.billetweb.fr/le-camping-des-speakers" style="color:navy;">
-    https://www.billetweb.fr/le-camping-des-speakers
-    </a></h3>
+    <p></p>
+    <h2>Vous hésitez ! Découvrez le programme !</h2>
+    <a href="https://camping-speakers.fr/sessions/" class="button">Le programme</a>
     </div>
 
 
