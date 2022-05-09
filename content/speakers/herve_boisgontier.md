@@ -1,6 +1,7 @@
 ---
 key: herve_boisgontier
 name: Hervé Boisgontier
+company: ENI École Informatique
 city: Saint-Herblain, France
 photoURL: speakers/herve_boisgontier.jpg
 socials:
