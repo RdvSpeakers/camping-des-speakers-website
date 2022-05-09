@@ -3,6 +3,7 @@ key: de_lage_de_pierre_au_burger_en_45_min
 title: "De l'âge de pierre 🗿au burger 🍔 en 45 min"
 speakers:
   - gregory_bevan
+  - guillaume_membre
 type: bivouac
 day: 1
 time: 11h15
