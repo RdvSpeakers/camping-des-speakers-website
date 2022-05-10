@@ -53,8 +53,9 @@ export default eleventyConfig =>
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --background-color: var(--black);
+        --background-color: var(--grayscale-800);
         --gray: var(--grayscale-400);
-        --text-color: var(--white);
+        --text-color: var(--grayscale-100);
+        --redish: indianred;
       }
     }`)
