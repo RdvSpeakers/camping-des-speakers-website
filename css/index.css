@@ -328,7 +328,7 @@ article.card {
   width: min(calc(300px - 20px - 4px), 100%);
   height: calc(300px - 20px - 4px);
   border: 0px;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 10px;
   box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, .4);
 }
