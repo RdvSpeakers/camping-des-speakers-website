@@ -2,6 +2,7 @@
 key: lucien_bill
 name: Lucien Bill
 city: Tours, France
+company: Cat-Amania
 photoURL: speakers/lucien_bill.jpg
 socials:
   - icon: twitter
