@@ -38,7 +38,7 @@ export default eleventyConfig =>
       --space-3: .5rem;
       --space-4: 1rem;
       /* Named Properties */
-      --background-color: var(white);
+      --background-color: var(--white);
       --text-color: var(--grayscale-800);
       --gray: var(--grayscale-600);
       --border: 2px dashed var(--gray);
