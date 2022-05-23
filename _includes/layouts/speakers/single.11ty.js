@@ -28,7 +28,7 @@
         </div>
         <div class="person_data">
           <h1>${data.name}</h1>
-          <h2>${data.company}</h2>
+          ${typeof data.company == "string" ? `<h2>${data.company}</h2>` : ``}
         </div>
         <div class="content">
           ${data.content}
