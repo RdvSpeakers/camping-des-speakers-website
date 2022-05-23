@@ -40,7 +40,7 @@ export function render(data) {
 
     <p></p>
     <h2>Vous hésitez ! Découvrez le programme !</h2>
-    <a href="https://camping-speakers.fr/sessions/" class="button">Le programme</a>
+    <a href="${data.site[data.locale].sessions.url}" class="button">Le programme</a>
     </div>
 
 
