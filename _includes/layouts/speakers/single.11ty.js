@@ -51,7 +51,7 @@
                     ${session.data.title}
                 </a>
             </li>`
-            })}
+            }).join("")}
         </ul>
       </article>  
       `;
