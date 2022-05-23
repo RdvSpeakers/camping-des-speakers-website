@@ -29,6 +29,7 @@ export default eleventyConfig =>
       --grayscale-200: ${data.colors.grayscale[200].hex};
       --grayscale-400: ${data.colors.grayscale[400].hex};
       --grayscale-600: ${data.colors.grayscale[600].hex};
+      --grayscale-700: #444;
       --grayscale-800: ${data.colors.grayscale[800].hex};
       --white: ${data.colors.grayscale.white.hex};
       --redish: #800000;
@@ -38,7 +39,8 @@ export default eleventyConfig =>
       --space-3: .5rem;
       --space-4: 1rem;
       /* Named Properties */
-      --background-color: var(white);
+      --background-color: var(--white);
+      --card-background: var(--white);
       --text-color: var(--grayscale-800);
       --gray: var(--grayscale-600);
       --border: 2px dashed var(--gray);
@@ -53,8 +55,10 @@ export default eleventyConfig =>
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --background-color: var(--black);
+        --background-color: var(--grayscale-800);
         --gray: var(--grayscale-400);
-        --text-color: var(--white);
+        --text-color: var(--grayscale-100);
+        --redish: indianred;
+        --card-background: var(--grayscale-700);
       }
     }`)
