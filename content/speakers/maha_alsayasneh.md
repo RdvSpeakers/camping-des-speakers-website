@@ -1,7 +1,7 @@
 ---
 key: maha_alsayasneh
 name: Maha ALSAYASNEH
-company: Atos
+company: Jellysmack
 city: Grenoble, France
 photoURL: speakers/maha_alsayasneh.jpg
 socials:
