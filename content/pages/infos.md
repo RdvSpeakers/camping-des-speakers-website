@@ -18,7 +18,7 @@ Pour venir au *Camping des speakers* :
 - en train, arrivée en gare d'Auray ou en gare de Vannes
 - en bus, à la gare de Vannes, prendre à la gare routière le n°21 jusqu'a l'arret "Baden centre".
 
-![Gare Vannes - Bus 21 horaires](bus21vannes.png)
+![Gare Vannes - Bus 21 horaires](/img/bus21vannes.png)
 
 # Se loger
 
