@@ -14,7 +14,7 @@ I am a senior developer with 10 years of experience in various fields ranging fr
 
 I also have a Ph.D. in optimizing the performance of multi-tier distributed systems.
 
-Currently, I am a Senior DevOps Engineer at ATOS. We are working on a Video analysis project based on dockerized microservice architecture.
+Currently, I am an Engineering Manager at Jellysmack. We are the global creator company that detects and develops the world’s most talented video creators.
 
 I love communicating and sharing knowledge ;) ( and of course sport;) )
 
