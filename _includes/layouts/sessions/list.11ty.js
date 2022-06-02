@@ -101,7 +101,7 @@ function sessionGrid(data, sessions) {
       </header>
       ${data.content}
 
-      ${sessionsByDay(data, data.pagination.items).map((day)=> sessionGrid(data, day))}
+      ${sessionsByDay(data, data.pagination.items).map((day)=> sessionGrid(data, day)).join('')}
 
       <footer>
         ${this.paginationNav(data)}
