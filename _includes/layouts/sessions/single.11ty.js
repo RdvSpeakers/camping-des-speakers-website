@@ -39,11 +39,12 @@ function speakerNameAndPic(data, speaker){
    * @see {@link https://www.11ty.dev/docs/pagination/ Pagination in 11ty}
    */
   export function render(data) {
+    const day = data.day == 0 ? "Jeudi" : "Vendredi";
     return `    
     <article class="session_details">
       <h2>${data.title}</h2>      
       <div>
-        <div class="when">${data.time} - ${data.duration}</div>
+        <div class="when">${day} - ${data.time} - ${data.duration}</div>
         <div class="where">${data.site[data.locale].rooms[data.room].name}</div>
       </div>
 
