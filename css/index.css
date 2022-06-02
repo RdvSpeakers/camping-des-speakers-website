@@ -334,6 +334,10 @@ article.card {
   background-color: var(--card-background);
 }
 
+article.card.sponsor{
+  background-color: var(--sponsor-card-background);
+}
+
 article.card > .card_content {
   width: min(calc(300px - 20px - 4px), 100%);
   height: calc(300px - 20px - 4px);
@@ -509,9 +513,6 @@ article.person_details a:visited {
   color: var(--redish);
 }
 
-article.person_details .socials {
-}
-
 article.person_details .socials a {
   display: inline-flex;
   margin: var(--space-1);
@@ -524,6 +525,10 @@ article.person_details .socials a {
   padding-left: 0.5em;
   padding-right: 0.5em;
   overflow: hidden;
+  vertical-align: middle;
+  background-color: var(--social-background);
+  border-radius: 5px;
+  padding: 15px;
 }
 
 

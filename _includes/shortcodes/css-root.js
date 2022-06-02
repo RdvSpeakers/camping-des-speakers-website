@@ -40,7 +40,9 @@ export default eleventyConfig =>
       --space-4: 1rem;
       /* Named Properties */
       --background-color: var(--white);
+      --sponsor-card-background: var(--white);
       --card-background: var(--white);
+      --social-background: var(--white);
       --text-color: var(--grayscale-800);
       --gray: var(--grayscale-600);
       --border: 2px dashed var(--gray);
@@ -55,10 +57,12 @@ export default eleventyConfig =>
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --background-color: var(--grayscale-800);
+        --background-color: var(--black);
         --gray: var(--grayscale-400);
         --text-color: var(--grayscale-100);
         --redish: indianred;
-        --card-background: var(--grayscale-700);
+        --sponsor-card-background: var(--grayscale-700);
+        --card-background: var(--grayscale-800);
+        --social-background: var(--grayscale-800);
       }
     }`)
