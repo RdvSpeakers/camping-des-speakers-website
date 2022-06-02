@@ -5,7 +5,7 @@ speakers:
   - yohan_lasorsa 
 type: autour_du_feu
 day: 0
-time: 14h30
+time: 17h10
 duration: 15 minutes
 room: autour_du_feu
 ---
