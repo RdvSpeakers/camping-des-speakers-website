@@ -5,7 +5,7 @@ speakers:
   - sylvain_wallez
 type: tente_canadienne
 day: 0
-time: 21h00
+time: 14h30
 duration: 45 minutes
 room: grande_salle
 ---
