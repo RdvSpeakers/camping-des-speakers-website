@@ -1,6 +1,6 @@
 ---
 key: valeriane_venance
-name: Valériane
+name: Valériane Venance
 company: Twilio
 city: Paris, France
 photoURL: speakers/valeriane_venance.jpg

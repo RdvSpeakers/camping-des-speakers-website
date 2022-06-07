@@ -1,6 +1,6 @@
 ---
 key: guillaume_grillat
-name: Guillaume
+name: Guillaume Grillat
 company: leboncoin
 city: Paris, France
 photoURL: speakers/guillaume_grillat.jpg

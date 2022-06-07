@@ -1,7 +1,7 @@
 ---
 key: jerome_masson
 name: Jérôme Masson
-company: Les Filles et les Garçons de la Tech
+company: 
 city: Aix-en-Provence, France
 photoURL: speakers/jerome_masson.jpg
 socials:
