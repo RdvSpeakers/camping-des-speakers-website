@@ -1,5 +1,5 @@
 ---
-titre : Code de conduite
+title : Code de conduite
 navTitle: Code de conduite
 tags: nav
 weight: 0
