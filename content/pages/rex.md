@@ -21,3 +21,5 @@ Quels meilleurs retours que les images, voici les [photos](https://t.co/x0dYbyvm
 ## Stéphane Philippart (@wildagsx)
  - [Mon Camping des Speaker 2022](https://philippart-s.github.io/blog/articles/conf%C3%A9rences/camping-speakers-2022/)
 ---
+## Thierry Chantier (@titimoby)
+ - [CALM#88](https://www.youtube.com/watch?v=xia4J1nXKSE)
