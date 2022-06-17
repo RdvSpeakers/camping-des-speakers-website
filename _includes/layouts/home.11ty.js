@@ -34,17 +34,12 @@ export function render(data) {
     <a href=${l10n.where.link} target="_blank" >${l10n.where.address}</a>
 
     <p></p>
-
-    <h2>La billeterie est ouverte !</h2>
-    <a href="https://www.billetweb.fr/le-camping-des-speakers" class="button">J'achète mon billet</a>
-
-    <p></p>
     <h2>Vous hésitez ! Découvrez le programme !</h2>
     <a href="${data.site[data.locale].sessions.url}" class="button">Le programme</a>
 
     <p></p>
-    <h2>Ce qu'en disent les participant.e.s</h2>
-    <a href="${data.site[data.locale].rex.url}" class="button">Les REX</a>    
+    <h2>Ce qu'en disent les participant.e.s :</h2>
+    <a href="${data.site[data.locale].rex.url}" class="button">Les ReX en articles et vidéos</a>    
     </div>
 
 

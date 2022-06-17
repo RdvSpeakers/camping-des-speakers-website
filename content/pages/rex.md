@@ -1,12 +1,12 @@
 ---
-title: Liste des retours des participantes et participants
+title: On parle de nous
 navTitle: REX
 tags: rex
 weight: 2
 permalink: rex
 ---
 
-Quels meilleurs retours que les images, voici les [photos](https://t.co/x0dYbyvmpp) de l'édition 2022.
+Quels meilleurs retours que des articles (et vidéos) de speakers, sponsors et participants qui ont assisté à la première édition du Camping des Speakers : 
 
 ---
 ## David Pilato (@dadoonet)
@@ -22,4 +22,4 @@ Quels meilleurs retours que les images, voici les [photos](https://t.co/x0dYbyvm
  - [Mon Camping des Speaker 2022](https://philippart-s.github.io/blog/articles/conf%C3%A9rences/camping-speakers-2022/)
 ---
 ## Thierry Chantier (@titimoby)
- - [CALM#88](https://www.youtube.com/watch?v=xia4J1nXKSE)
+ - 🎥 [CALM#88](https://www.youtube.com/watch?v=xia4J1nXKSE)
