@@ -35,12 +35,16 @@ export function render(data) {
 
     <p></p>
 
+    <!--
     <h2>La billeterie est ouverte !</h2>
     <a href="https://www.billetweb.fr/le-camping-des-speakers" class="button">J'achète mon billet</a>
+    -->
 
     <p></p>
+    <!--
     <h2>Vous hésitez ! Découvrez le programme !</h2>
     <a href="${data.site[data.locale].sessions.url}" class="button">Le programme</a>
+    -->
     </div>
 
 

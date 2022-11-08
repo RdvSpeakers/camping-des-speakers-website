@@ -39,10 +39,9 @@
    */
   export function render(data) {
     return `
-    <p><b>Le Camping des Speakers</b> est organisé bénévolement par une équipe de passionés venant de toute la France.</p>
+    <p><b>Le Camping des Speakers</b> est organisé bénévolement par une équipe de passionnés venant de toute la France.</p>
 
-    <p>Afin d'organiser cette première édition du Camping des Speakers, nous avons besoin de vous.</p>
+    <p>Afin d'organiser cette deuxième édition du Camping des Speakers, nous avons besoin de vous.</p>
     
     <p>La recherche de sponsors est ouverte, n'hésitez pas à nous contacter !</p>`
   }
-  
