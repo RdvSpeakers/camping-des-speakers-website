@@ -43,5 +43,7 @@
 
     <p>Afin d'organiser cette deuxième édition du Camping des Speakers, nous avons besoin de vous.</p>
     
+    <a target="_blank" href="https://drive.google.com/file/d/1McXBSi-QncrBnRTVJXn0L9WqANNfNAfz/view" class="button">Consultez notre dossier de sponsoring</a>
+
     <p>La recherche de sponsors est ouverte, n'hésitez pas à nous contacter !</p>`
   }
