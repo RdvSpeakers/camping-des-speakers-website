@@ -33,7 +33,7 @@ export default {
     // The subtitle, slogan, or catchphrase for your site,
     // used in _includes/shortcodes/site-header
     tagline: "Conférence de Devs dans le Golfe du Morbihan",
-    when: "9-10 Juin 2022",
+    when: "15-16 Juin 2023",
     where: {
       address: "52 Rue Mané er Groez, 56870 Baden",
       link: "https://www.google.com/maps/place/52%20Rue%20Man%C3%A9%20er%20Groez%2C%2056870%20Baden%2C%20France"
@@ -97,12 +97,12 @@ export default {
       primary: 'primary navigation'
     },
     days: [{
-        long: 'Jeudi, 9 juin 2022',
-        short: '2022/06/09'
+        long: 'Jeudi, 15 juin 2023',
+        short: '2023/06/15'
       },
       {
-        long: 'Vendredi, 10 juin 2022',
-        short: '2022/06/10'
+        long: 'Vendredi, 16 juin 2023',
+        short: '2023/06/16'
       }
     ],
     rooms: {

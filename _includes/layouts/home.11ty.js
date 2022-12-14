@@ -35,12 +35,19 @@ export function render(data) {
 
     <p></p>
 
+    <h2>Vous souhaitez être sponsor ?</h2>
+    <a target="_blank" href="https://drive.google.com/file/d/1McXBSi-QncrBnRTVJXn0L9WqANNfNAfz/view" class="button">Consultez notre dossier de sponsoring</a>
+
+    <!--
     <h2>La billeterie est ouverte !</h2>
     <a href="https://www.billetweb.fr/le-camping-des-speakers" class="button">J'achète mon billet</a>
+    -->
 
     <p></p>
+    <!--
     <h2>Vous hésitez ! Découvrez le programme !</h2>
     <a href="${data.site[data.locale].sessions.url}" class="button">Le programme</a>
+    -->
     </div>
 
 
