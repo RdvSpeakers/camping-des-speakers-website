@@ -1,7 +1,7 @@
 ---
 key: sebastien_blanc
 name: Sébastien Blanc
-company: RedHat
+company: Aiven
 photoURL: team/sebastien_blanc.jpg
 socials:
   - icon: twitter
