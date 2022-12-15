@@ -42,6 +42,9 @@
     <p><b>Le Camping des Speakers</b> est organisé bénévolement par une équipe de passionnés venant de toute la France.</p>
 
     <p>Afin d'organiser cette deuxième édition du Camping des Speakers, nous avons besoin de vous.</p>
+
+    <p>La recherche de sponsors est ouverte, n'hésitez pas à consulter le dossier de sponsoring et à nous contacter !</p>
     
-    <p>La recherche de sponsors est ouverte, n'hésitez pas à nous contacter !</p>`
+    <a target="_blank" href="https://drive.google.com/file/d/1McXBSi-QncrBnRTVJXn0L9WqANNfNAfz/view" class="button">Consultez notre dossier de sponsoring</a>
+    `
   }
