@@ -45,6 +45,11 @@
 
     <p>La recherche de sponsors est ouverte, n'hésitez pas à consulter le dossier de sponsoring et à nous contacter !</p>
     
-    <a target="_blank" href="https://drive.google.com/file/d/1McXBSi-QncrBnRTVJXn0L9WqANNfNAfz/view" class="button">Consultez notre dossier de sponsoring</a>
+    <p><a target="_blank" href="https://drive.google.com/file/d/1McXBSi-QncrBnRTVJXn0L9WqANNfNAfz/view" class="button">Consultez notre dossier de sponsoring</a></p>
+
+    <p>
+    <img src="/img/sponsor1_thumb.jpg"/><img src="/img/sponsor2_thumb.jpg"/>
+    <img src="/img/sponsor3_thumb.jpg"/><img src="/img/sponsor4_thumb.jpg"/>
+    </p>
     `
   }
