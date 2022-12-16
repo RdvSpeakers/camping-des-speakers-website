@@ -673,3 +673,7 @@ article.session_details .speaker_company {
     justify-content: center;
   }
 }
+
+footer a {
+  text-decoration: underline;
+}
