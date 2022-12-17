@@ -37,6 +37,12 @@ export function render(data) {
 
     <h2>Vous souhaitez être sponsor ?</h2>
     <a target="_blank" href="https://drive.google.com/file/d/1McXBSi-QncrBnRTVJXn0L9WqANNfNAfz/view" class="button">Consultez notre dossier de sponsoring</a>
+    
+    <p>
+      <h2>Vous souhaitez devenir speaker ?</h2>
+      <a target="_blank" href="https://conference-hall.io/public/event/HDF3RTtlPRv7WIuxthtr" class="button">Call For Paper</a>
+      (ouverture le 26 Décembre 2022)
+    </p>
 
     <!--
     <h2>La billeterie est ouverte !</h2>
