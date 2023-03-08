@@ -32,7 +32,7 @@ export default eleventyConfig =>
     
       ${arr.filter(item => item.data.category == 4096).length > 0 ? 
         `<div class="sponsor-category">
-          <img src="/img/sponsor_4096.png" alt="Sponsor 4096" width="150">
+          <img src="/img/sponsor_4096.png" alt="Sponsor 4096" width="150"> <h2>Sponsors 4096</h2>
         </div>
         <section class="grid gap 4096">
           ${arr
@@ -57,7 +57,7 @@ export default eleventyConfig =>
       : ''}
       ${arr.filter(item => item.data.category == 2048).length > 0 ? 
         `<div class="sponsor-category">
-          <img src="/img/sponsor_2048.png" alt="Sponsor 2048" width="150">
+          <img src="/img/sponsor_2048.png" alt="Sponsor 2048" width="150"> <h2>Sponsors 2048</h2>
         </div>
         <section class="grid gap 2048">
           ${arr
@@ -105,7 +105,7 @@ export default eleventyConfig =>
       : ''}
       ${arr.filter(item => item.data.category == 512).length > 0 ? 
         `<div class="sponsor-category">
-          <img src="/img/sponsor_512.png" alt="Sponsor 512" width="150">
+          <img src="/img/sponsor_512.png" alt="Sponsor 512" width="150"> <h2>Sponsors 512</h2>
         </div>
         <section class="grid gap 512">
           ${arr

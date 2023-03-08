@@ -51,5 +51,9 @@
     <img src="/img/sponsor1_thumb.jpg"/><img src="/img/sponsor2_thumb.jpg"/>
     <img src="/img/sponsor3_thumb.jpg"/><img src="/img/sponsor4_thumb.jpg"/>
     </p>
+
+    <hr>
+
+    <header class="article-header"><h2>Nos sponsors 2023</h2></header>
     `
   }

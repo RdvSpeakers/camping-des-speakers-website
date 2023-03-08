@@ -644,6 +644,7 @@ article.session_details .speaker_company {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  align-items: center;
   margin-top: 2rem;  
   margin-bottom: 1rem;
 }
