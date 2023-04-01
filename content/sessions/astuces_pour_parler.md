@@ -1,6 +1,6 @@
 ---
 key: astuces_pour_parler
-title: "🗣️ \" Zut ! J'aurais du dire ça ! \" 🙊 Astuces pour parler avec aisance en public 🎙️"
+title: "🗣️ Zut ! J'aurais du dire ça ! 🙊 Astuces pour parler avec aisance en public 🎙️"
 speakers:
   - willy_malvault
   - sylvain_coudert
