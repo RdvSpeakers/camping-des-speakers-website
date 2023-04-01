@@ -31,8 +31,8 @@ function sessionsByDay(data, sessions) {
             sessionsByDay[session.data.day] = [];
         } 
         sessionsByDay[session.data.day].push(session);
-    };
-    console.log('sessionsByDay', sessionsByDay[0].length)
+    }
+    console.log('sessionsByDay', sessionsByDay[0].length);
     return sessionsByDay;
 }
 

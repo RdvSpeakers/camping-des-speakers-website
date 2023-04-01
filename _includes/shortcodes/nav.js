@@ -40,9 +40,11 @@ export default eleventyConfig =>
           ${classes ? `class="${classList.map(item => `${item}`).join(' ')}"`: '' }
           ${ariaLabel ? `aria-label="${ariaLabel}"` : ''}>
           <ul>
+            <!--
             <li>
               <a href="https://conference-hall.io/public/event/HDF3RTtlPRv7WIuxthtr" target="_blank">Call For Paper</a>
             </li>
+            -->
             ${collection
               .sort((a, b) => a.data.weight - b.data.weight)
               .map(item => `<li><a href="${this.url(`${item.data.url ? item.data.url : item.url}`)}" 

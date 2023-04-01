@@ -51,10 +51,8 @@ export function render(data) {
     <a href="https://www.billetweb.fr/le-camping-des-speakers-2023" class="button"  target="_blank">J'achète mon billet</a>
 
     <p></p>
-    <!--
     <h2>Vous hésitez ! Découvrez le programme !</h2>
     <a href="${data.site[data.locale].sessions.url}" class="button">Le programme</a>
-    -->
     </div>
 
 
