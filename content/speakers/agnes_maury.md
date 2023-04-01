@@ -11,3 +11,5 @@ socials:
     link: https://twitter.com/maury_agnes
     name: maury_agnes
 ---
+
+Développeuse passionnée et évangéliste SCALA, j'aime les chats 🐱, les jeux vidéos et le Japon. J'aime le travail bien fait et cherche toujours la meilleure façon de faire les choses sans réinventer la roue. Au quotidien, je m'applique à cultiver une vision du travail qui rime avec sens et performance. 🌟

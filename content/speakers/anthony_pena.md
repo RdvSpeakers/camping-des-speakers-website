@@ -12,3 +12,5 @@ socials:
     link: https://github.com/kuroidoruido
     name: kuroidoruido
 ---
+
+Codeur et blogueur le jour et dévoreur de manga la nuit, vous me verrez souvent parler de Java, JavaScript, Typescript, Rust ou de test, parfois un peu (beaucoup) de jeux-vidéos ou de bricolage de console.

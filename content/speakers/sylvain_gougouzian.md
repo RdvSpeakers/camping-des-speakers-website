@@ -12,3 +12,7 @@ socials:
     link: https://twitter.com/gouz
     name: gouz
 ---
+
+Senior Dev @ Zenika depuis Septembre 2022
+
+Plus d'infos sur https://sylvain.gougouzian.fr et tous mes liens sociaux sont sur https://gouz.dev
