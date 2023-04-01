@@ -4,7 +4,7 @@ title: "Construire soi-même son clavier mécanique, idée bizarre ou idée de g
 speakers:
   - benjamin_legrand
 type: canadienne
-day: 1
+day: 0
 time: 10h15
 duration: 45 minutes
 room: grande_salle

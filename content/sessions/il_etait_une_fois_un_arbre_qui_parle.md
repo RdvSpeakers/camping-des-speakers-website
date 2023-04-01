@@ -4,7 +4,7 @@ title: "Il était une fois un arbre qui parle"
 speakers:
   - paul_pinault
 type: bivouac
-day: 1
+day: 0
 time: 16h00
 duration: 45 minutes
 room: slideless

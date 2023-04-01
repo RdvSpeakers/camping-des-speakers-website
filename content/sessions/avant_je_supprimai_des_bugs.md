@@ -4,7 +4,7 @@ title: "Avant, je supprimai des bugs, maintenant j'élève des abeilles"
 speakers:
   - florian_roulet
 type: bivouac
-day: 2
+day: 1
 time: 13h30
 duration: 45 minutes
 room: slideless

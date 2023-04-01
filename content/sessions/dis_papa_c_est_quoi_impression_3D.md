@@ -5,7 +5,7 @@ speakers:
   - yohan_lasorsa
   - wassim_chegham
 type: bivouac
-day: 2
+day: 1
 time: 10h15
 duration: 45 minutes
 room: slideless

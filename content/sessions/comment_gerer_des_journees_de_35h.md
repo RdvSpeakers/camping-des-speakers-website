@@ -4,7 +4,7 @@ title: "Comment gérer des journées de 35h ?"
 speakers:
   - sylvain_gougouzian
 type: quechua
-day: 2
+day: 1
 time: 14h30
 duration: 20 minutes
 room: petite_salle

@@ -4,7 +4,7 @@ title: "Le petit chaperon rouge pratique enfin le Zero-Trust (Theater Version)"
 speakers:
   - jerome_masson
 type: bivouac
-day: 1
+day: 0
 time: 10h15
 duration: 45 minutes
 room: slideless

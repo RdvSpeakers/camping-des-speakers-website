@@ -4,7 +4,7 @@ title: "Créer sa propre VM avec compilation JIT pour les nuls"
 speakers:
   - olivier_poncet
 type: canadienne
-day: 2
+day: 1
 time: 10h15
 duration: 45 minutes
 room: petite_salle

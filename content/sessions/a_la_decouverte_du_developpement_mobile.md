@@ -5,7 +5,7 @@ speakers:
   - robin_caroff
   - cyril_hue
 type: bivouac
-day: 2
+day: 1
 time: 14h30
 duration: 45 minutes
 room: slideless

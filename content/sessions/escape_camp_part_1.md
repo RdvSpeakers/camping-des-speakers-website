@@ -6,7 +6,7 @@ speakers:
   - william_bartlett
   - jeremy_lejeune
 type: bivouac
-day: 2
+day: 1
 time: 13h30
 duration: 45 minutes
 room: slideless

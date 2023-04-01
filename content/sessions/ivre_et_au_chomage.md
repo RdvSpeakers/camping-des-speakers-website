@@ -4,7 +4,7 @@ title: "Ivre et au chômage, elle décide d'écrire un livre sur le Scala en ple
 speakers:
   - agnes_maury
 type: quechua
-day: 1
+day: 0
 time: 17h40
 duration: 20 minutes
 room: petite_salle

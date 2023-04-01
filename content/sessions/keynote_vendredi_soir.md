@@ -1,8 +1,11 @@
 ---
 key: keynote_vendredi_soir
-title: "Keynote"
+title: "Keynote d'Au revoir"
+speakers:
+  - horacio_gonzalez
+  - pierre_tibulle
 type: keynote
-day: 2
+day: 1
 time: 16h00
 duration: 20 minutes
 room: petite_salle

@@ -4,7 +4,7 @@ title: "L'intelligence artificielle expliquée en 20 minutes !"
 speakers:
   - stephane_philippart
 type: quechua
-day: 1
+day: 0
 time: 16h30
 duration: 20 minutes
 room: grande_salle

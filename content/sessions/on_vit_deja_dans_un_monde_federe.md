@@ -4,7 +4,7 @@ title: "On vit déjà dans un monde fédéré !"
 speakers:
   - anthony_pena
 type: autour_du_feu
-day: 1
+day: 0
 time: 16h00
 duration: 15 minutes
 room: slideless

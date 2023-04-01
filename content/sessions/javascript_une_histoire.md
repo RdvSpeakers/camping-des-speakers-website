@@ -4,7 +4,7 @@ title: "JavaScript : une histoire d'amour 💔"
 speakers:
   - jordane_grenat
 type: autour_du_feu
-day: 1
+day: 0
 time: 17h10
 duration: 15 minutes
 room: slideless

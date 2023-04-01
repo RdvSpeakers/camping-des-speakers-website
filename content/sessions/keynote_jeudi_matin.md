@@ -1,8 +1,11 @@
 ---
 key: keynote_jeudi_matin
-title: "Keynote et Marché aux poissons"
+title: "Keynote d'ouverture et Marché aux poissons"
+speakers:
+  - horacio_gonzalez
+  - pierre_tibulle
 type: keynote
-day: 1
+day: 0
 time: 09h20
 duration: 40 minutes
 room: grande_salle

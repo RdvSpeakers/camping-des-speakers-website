@@ -5,7 +5,7 @@ speakers:
   - benoit_masson
   - gwendal_leclerc
 type: bivouac
-day: 1
+day: 0
 time: 10h15
 duration: 45 minutes
 room: slideless
