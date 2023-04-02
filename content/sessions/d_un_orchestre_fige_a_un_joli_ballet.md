@@ -3,6 +3,7 @@ key: d_un_orchestre_fige_a_un_joli_ballet
 title: "D'un orchestre figé à un joli ballet aka comment on a propulsé notre monolith dans un pas de danse endiablé 😈"
 speakers:
   - marie_laure_momplot
+  - sebastien_viale
 type: canadienne
 day: 0
 time: 14h30
