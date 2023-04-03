@@ -5,7 +5,7 @@ speakers:
   - jean_phi_baconnais
   - guillaume_membre
 type: bivouac
-day: 0
+day: 1
 time: 11h15
 duration: 45 minutes
 room: slideless
