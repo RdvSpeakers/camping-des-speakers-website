@@ -4,7 +4,6 @@ title: "Escape Camp 🏃🏕️"
 speakers:
   - gregory_bevan
   - william_bartlett
-  - jeremy_lejeune
 type: bivouac
 day: 1
 time: 14h30
