@@ -35,7 +35,7 @@ Les actions suivantes sont considérées comme du harcèlement et sont inaccepta
 - Blagues et langage sexistes, racistes, homophobes, transphobes, capacitistes ou autrement discriminatoires.
 - Publier ou afficher du matériel sexuellement explicite ou violent.
 - Publier ou menacer de publier les informations d'identification personnelle d'autres personnes ("doxing").
-- Insultes personnelles, en particulier celles liées au sexe, à l'orientation sexuelle, à la race, à la religion ou au handicap.
+- Insultes personnelles, en particulier celles liées au sexe, à l'orientation sexuelle, à l'appartenance ethnique, à la religion ou au handicap.
 - Photographie ou enregistrement inapproprié.
 - Contact physique inapproprié. Vous devriez avoir le consentement de quelqu'un avant de le toucher.
 - Attention sexuelle importune. Cela inclut les commentaires ou les blagues à caractère sexuel ; attouchements inappropriés, tâtonnements et avances sexuelles importunes.
