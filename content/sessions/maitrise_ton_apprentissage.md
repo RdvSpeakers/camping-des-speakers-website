@@ -5,7 +5,7 @@ speakers:
   - maxime_deroullers
 type: autour_du_feu
 day: 1
-time: 11h15
+time: 10h15
 duration: 15 minutes
 room: slideless
 ---

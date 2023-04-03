@@ -1,8 +1,8 @@
 ---
-key: agnes_maury
+key: agnes_cardin
 name: Agnès Maury
-company: Palo IT Nantes
-photoURL: speakers/agnes_maury.jpg
+company: iAdvize
+photoURL: speakers/agnes_cardin.jpg
 socials:
   - icon: github
     link: https://github.com/agnesmdev
