@@ -11,6 +11,6 @@ duration: 60 minutes
 room: grande_salle
 ---
 
-Keynote des organisateurs
+Keynote d'un.e invité.e surprise !
 
 Marché aux poissons

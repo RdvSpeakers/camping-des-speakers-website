@@ -8,7 +8,7 @@ type: bivouac
 day: 1
 time: 11h15
 duration: 45 minutes
-room: slideless
+room: grande_salle
 ---
 
 " La peur de parler en public est une des peurs les plus partagées au monde. Devant la pauvreté, devant la maladie, devant la mort" ... (Nable Léviste)
