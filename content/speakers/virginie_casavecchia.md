@@ -12,12 +12,10 @@ socials:
     name: La_Fee_Dragee
 ---
 
-Diplômée en 2010 d'un Master de cryptologie et sécurité informatique, je travaille depuis 2011 dans une société proposant des solutions de paiement par carte bancaire sur autoroute, ainsi que des solutions de billettique (~gestion de titres de transports) pour les réseaux de transport en commun de diverses tailles.
+Diplômée en 2010 d'un Master de cryptologie et sécurité informatique, je travaille depuis 2011 au sein de la société Actoll proposant des solutions de paiement par carte bancaire sur autoroute, dans les transports en commun ou encore pour du don, ainsi que des solutions de billettique (~gestion de titres de transports) pour les réseaux de transport en commun de diverses tailles.  
 
-Initialement développeuse, je suis ensuite passée côté intégration et qualification des solutions monétiques (=paiement).
+Initialement développeuse, je suis ensuite passée côté intégration et qualification des solutions de paiement.  
 
-Je suis aujourd'hui à la fois responsable qualification, intégratrice, testeuse, formatrice en interne ou pour les clients, support client, rédactrice de documentations...
+Je suis aujourd'hui à la fois responsable qualification, intégratrice, formatrice en interne ou pour les clients, support client, rédactrice de documentations : en somme baby-DevRel 🦄🥑.  
 
-Parallèlement, je suis membre d'un groupe de musique intitulé Les Marmottes depuis 2011. Nous faisons principalement des reprises instrumentales de morceaux de métal, bandes originales de films/séries/jeux vidéos.
-
-En janvier 2022 j'ai découvert le rôle DevRel et le monde des conférences et des speakers, qui m'a tout de suite plu et qui correspond complètement à ce vers quoi je veux aller.
+Parallèlement, je suis membre d'un groupe de musique intitulé Les Marmottes depuis 2011. Nous faisons principalement des reprises instrumentales de morceaux de métal, bandes originales de films/séries/jeux vidéos.  
