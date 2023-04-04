@@ -3,10 +3,10 @@ key: et_si_on_arretait_de_basher_les_esn
 title: "Et si on arrêtait de basher les ESN ?"
 speakers:
   - olivier_thierry
-type: autour_du_feu
+type: bivouac
 day: 1
-time: 10h15
-duration: 15 minutes
+time: 11h15
+duration: 45 minutes
 room: slideless
 ---
 

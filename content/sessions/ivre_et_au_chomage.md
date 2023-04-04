@@ -2,7 +2,7 @@
 key: ivre_et_au_chomage
 title: "Ivre et au chômage, elle décide d'écrire un livre sur le Scala en plein Covid"
 speakers:
-  - agnes_maury
+  - agnes_cardin
 type: quechua
 day: 0
 time: 17h40

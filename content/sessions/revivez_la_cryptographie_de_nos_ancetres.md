@@ -5,7 +5,7 @@ speakers:
   - willy_malvault
   - virginie_casavecchia
 type: bivouac
-day: 1
+day: 0
 time: 11h15
 duration: 45 minutes
 room: slideless

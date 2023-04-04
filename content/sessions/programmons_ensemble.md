@@ -1,6 +1,6 @@
 ---
 key: programmons_ensemble
-title: "programmons ensemble... une boite de vitesses"
+title: "Programmons ensemble... une boite de vitesses"
 speakers:
   - mathieu_passenaud
 type: bivouac
