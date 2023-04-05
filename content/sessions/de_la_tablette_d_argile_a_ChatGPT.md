@@ -2,7 +2,6 @@
 key: de_la_tablette_d_argile_a_ChatGPT
 title: "De la tablette d'argile à ChatGPT : la passionnante histoire de la diffusion du savoir"
 speakers:
-  - emmanuel_de_saint_steban
   - patrice_de_saint_steban
 type: autour_du_feu
 day: 0
