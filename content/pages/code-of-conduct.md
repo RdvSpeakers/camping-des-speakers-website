@@ -47,7 +47,7 @@ Les actions suivantes sont considérées comme du harcèlement et sont inaccepta
 
 Le comportement inacceptable de tout membre de la communauté, y compris les sponsors et les personnes ayant un pouvoir décisionnel, ne sera pas toléré.
 Toute personne à qui l'on demande d'arrêter un comportement inacceptable doit s'y conformer immédiatement.
-Si un membre de la communauté adopte un comportement inacceptable, les organisateurs de la communauté peuvent prendre toute mesure qu'ils jugent appropriée, pouvant aller jusqu'à une interdiction temporaire ou une expulsion permanente de la communauté sans avertissement (et sans remboursement dans le cas d'un événement payant.
+Si un membre de la communauté adopte un comportement inacceptable, les organisateurs de la communauté peuvent prendre toute mesure qu'ils jugent appropriée, pouvant aller jusqu'à une interdiction temporaire ou une expulsion permanente de la communauté sans avertissement (et sans remboursement dans le cas d'un événement payant).
 
 ## 6. Portée
 

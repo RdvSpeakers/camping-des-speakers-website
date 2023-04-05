@@ -45,6 +45,9 @@ export default eleventyConfig =>
               <a href="https://conference-hall.io/public/event/HDF3RTtlPRv7WIuxthtr" target="_blank">Call For Paper</a>
             </li>
             -->
+            <li>
+            <a href="https://www.billetweb.fr/le-camping-des-speakers-2023" target="_blank">Billetterie</a>
+            </li>
             ${collection
               .sort((a, b) => a.data.weight - b.data.weight)
               .map(item => `<li><a href="${this.url(`${item.data.url ? item.data.url : item.url}`)}" 
