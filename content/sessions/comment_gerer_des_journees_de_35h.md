@@ -5,7 +5,7 @@ speakers:
   - sylvain_gougouzian
 type: quechua
 day: 1
-time: 14h30
+time: 14h55
 duration: 20 minutes
 room: petite_salle
 ---
