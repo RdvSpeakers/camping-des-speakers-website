@@ -13,8 +13,8 @@ socials:
     name: JPhi_Baconnais
 ---
 
-**Développeur chez Zenika Nantes **
+**Développeur chez Zenika Nantes**
 
 Plongé dans le développement avec l'éco-système Java, curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.
 
-GitLab Heroes depuis l'été 2020 🦊 & Community Hero GitPod 🍑 depuis juin 2022 Co orga des Human Talks Nantes
+GitLab Heroes 🦊 - Community Hero Gitpod 🍑 - Co orga des Human Talks Nantes
