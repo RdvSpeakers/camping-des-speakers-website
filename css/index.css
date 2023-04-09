@@ -603,6 +603,55 @@ article.sessions-list .sessions_day {
   font-size: 0.75rem;
 }
 
+.sessions_day {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.room-tracklist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.room-tracklist p {
+  text-align: center;
+}
+
+
+.sessions_day article.session {
+  margin-bottom: 1rem;
+}
+
+article.card.hidden {
+  background: transparent;
+  box-shadow: none;
+  display: none;
+}
+
+@media (min-width: 1600px) {
+  .sessions_day {
+    flex-direction: row;
+  }
+
+  .room-tracklist {
+    width: 25%;
+  }
+
+  .room-tracklist.slideless {
+    width: 50%;
+  }
+
+  .room-tracklist.petite_salle {
+    border-left: 1px solid var(--grayscale-600);
+    border-right: 1px solid var(--grayscale-600);
+  }
+
+  article.card.hidden {
+    display: block;
+  }
+}
 
 article.session_details {
 
@@ -637,8 +686,6 @@ article.session_details .speaker_name {
 article.session_details .speaker_company {
   font-size: 0.75rem;
 }
-
-
 
 .sponsor-category {
   display: flex;
