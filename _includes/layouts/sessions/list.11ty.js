@@ -9,7 +9,7 @@ function speakerNameAndPic(data, speaker) {
     return "";
   }
   return `
-    <li class="speaker">
+    <div class="speaker">
         <a href="../${data.site[data.locale].speakers.url}/${
     speaker.data.key
   }/">
@@ -23,47 +23,47 @@ function speakerNameAndPic(data, speaker) {
                 }</div>
             </div>
         </a>
-    </li>`;
+    </div>`;
 }
 
 function sessionsByDay(data, sessions) {
-  let sessionsByDay = [];
+  let sessionsByDayTime = {};
 
   for (let i = 0; i < sessions.length; i++) {
     let session = sessions[i];
-    if (!sessionsByDay[session.data.day]) {
-      sessionsByDay[session.data.day] = [];
+    if (!sessionsByDayTime[session.data.day]) {
+      sessionsByDayTime[session.data.day] = {};
     }
-    sessionsByDay[session.data.day].push(session);
+    const time = session.data.time;
+    if (!sessionsByDayTime[session.data.day][time]) {
+      sessionsByDayTime[session.data.day][time] = [];
+    }
+    sessionsByDayTime[session.data.day][time].push(session);
   }
   // console.log("sessionsByDay", sessionsByDay[0].length);
-  return sessionsByDay;
+  return sessionsByDayTime;
 }
 
 function sessionTalk(data, item) {
-  return `<article class="card session">
-  <div class="card_content">
-    <div class="card_header">
-      <h4 class="no-margin">
-        <a href="../${data.site[data.locale].sessions.url}/${item.data.key}/">
-          ${item.data.title}
-        </a>
-      </h4>
-    </div>
+  return `
+  <article class="session">
+    <h4 class="no-margin">
+      <a href="../${data.site[data.locale].sessions.url}/${item.data.key}/">
+        ${item.data.title}
+      </a>
+    </h4>
     <div class="filler">   
-          <ul class="speakers">
-              ${item.data.speakers
-                .map(
-                  (speaker) =>
-                    `${speakerNameAndPic(
-                      data,
-                      data.collections.speakers.find(
-                        (person) => person.data.key == speaker
-                      )
-                    )}`
-                )
-                .join("")}
-          </ul>
+      ${item.data.speakers
+        .map(
+          (speaker) =>
+            `${speakerNameAndPic(
+              data,
+              data.collections.speakers.find(
+                (person) => person.data.key == speaker
+              )
+            )}`
+        )
+        .join("")}
     </div>
     <div>
       <div class="when">${item.data.time} - ${item.data.duration}</div>
@@ -71,56 +71,7 @@ function sessionTalk(data, item) {
         data.site[data.locale].rooms[item.data.room].name
       }</div>
     </div>
-  </div>
 </article>`;
-}
-
-function sessionsByRoom(sessions, data) {
-  let rooms = [];
-  Object.keys(data.site[data.locale].rooms).forEach((r) => {
-    const room = data.site[data.locale].rooms[r];
-    const sess = sessions.filter((session) => session.data.room == r);
-    if (sess.length)
-      rooms.push(`
-    <section class="room-tracklist ${r}">
-      <p class="room">${room.name}</p>
-      <section class="grid gap">
-        ${
-          r == "petite_salle"
-            ? '<article class="card session hidden"></article>'
-            : ""
-        }
-        ${
-          r == "slideless"
-            ? '<article class="card session hidden"></article><article class="card session hidden"></article>'
-            : ""
-        }
-        ${sess
-          .sort((a, b) => {
-            if (a.data.time.localeCompare(b.data.time) != 0) {
-              return a.data.time.localeCompare(b.data.time);
-            }
-            return (
-              data.site[data.locale].rooms[a.data.room].id -
-              data.site[data.locale].rooms[b.data.room].id
-            );
-          })
-          .map((item) => sessionTalk(data, item))
-          .join("")}
-        </section>
-    </section>
-  `);
-  });
-  return rooms.join("");
-}
-
-function sessionGrid(data, sessions) {
-  return `
-    <h3>${data.site[data.locale].days[sessions[0].data.day].long}</h3>
-
-    <section class="sessions_day">
-    ${sessionsByRoom(sessions, data)}
-    </section>`;
 }
 
 /**
@@ -146,10 +97,39 @@ export function render(data) {
       </header>
       ${data.content}
 
-      ${sessionsByDay(data, data.pagination.items)
-        .map((day) => sessionGrid(data, day))
+      ${Object.entries(sessionsByDay(data, data.pagination.items))
+        .map(
+          ([day, sessionsPerDay]) => `
+            <section class="session_day">
+              <h3>
+                ${data.site[data.locale].days[day].long}
+              </h3>
+              ${Object.entries(
+                Object.keys(sessionsPerDay)
+                  .sort()
+                  .reduce(
+                    (res, key) => ((res[key] = sessionsPerDay[key]), res),
+                    {}
+                  )
+              )
+                .map(
+                  ([time, sessions]) => `
+                  <div class="sessions_daytime">
+                    <div class="sessions_daytime_time">${time}</div>
+                    <div class="sessions_daytime_sessions">
+                      ${sessions
+                        .map((session) => sessionTalk(data, session))
+                        .join("")}
+                    </div>
+                  </div>
+                `
+                )
+                .join("")}
+              </section>
+            `
+        )
         .join("")}
-
+      
       <footer>
         ${this.paginationNav(data)}
       </footer>

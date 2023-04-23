@@ -540,54 +540,95 @@ article.sessions-list .sessions_day {
   margin-bottom: 4rem;
 }
 
-.card.session .filler {
-  justify-content: flex-start;
+.sessions_daytime {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
-.card.session .when,.card.session .where {
+
+.sessions_daytime_time {
+  padding-right: 20px;
+}
+
+.sessions_daytime_sessions {
+  display: grid;
+  flex-grow: 1;
+  gap: 0.5rem;
+}
+
+@media (min-width: 820px) {
+  .sessions_daytime_sessions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .sessions_daytime_sessions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .sessions_daytime_sessions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.sessions_daytime_sessions article.session {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, .4);
+  background-color: var(--card-background);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sessions_daytime_sessions .session h4 {
+  font-size: 1.25em;
+  min-height: 3rem;
+}
+
+.sessions_daytime_sessions .session h4 a  {
+  text-decoration: none;
+}
+
+
+.sessions_daytime_sessions .session .filler {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1rem;  
+  width: 100%;
+}
+
+.sessions_daytime_sessions .session .when, .sessions_daytime_sessions .session .where {
   font-size: 0.75rem;
   align-self: flex-end;
 
 }
 
-.card.session ul.speakers {
-  width:100%;
-  list-style: none;
-  margin-block-start: 1.5em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0;
-  padding-inline-start: 2em;
-  align-self: flex-start;
-}
-
-.card.session li.speaker {
-  width: 100%;
-}
-
-
-
-.card.session li.speaker:not(:last-child) { 
-  margin-bottom: 0.5rem;  
-}
-
-
-.card.session li.speaker a {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-
-}
-
-
-.card.session li.speaker {
+.sessions_daytime_sessions .session .speaker {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   width: 100%;
 }
 
+.sessions_daytime_sessions .session .speaker a {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
 
-.card.session .speakers .speaker_pic {
+.sessions_daytime_sessions .session .speaker .speaker_pic {
   --img-size: 2.5rem;
   height: var(--img-size,2.5rem);
   width: var(--img-size,2.5rem);
@@ -596,61 +637,12 @@ article.sessions-list .sessions_day {
   margin-right: 1rem;
 }
 
-.card.session .speaker_name {
+.sessions_daytime_sessions .session .speaker_name {
   font-weight: 600;
 }
-.card.session .speaker_company {
+
+.sessions_daytime_sessions .session .speaker_company {
   font-size: 0.75rem;
-}
-
-.sessions_day {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-.room-tracklist {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.room-tracklist p {
-  text-align: center;
-}
-
-
-.sessions_day article.session {
-  margin-bottom: 1rem;
-}
-
-article.card.hidden {
-  background: transparent;
-  box-shadow: none;
-  display: none;
-}
-
-@media (min-width: 1600px) {
-  .sessions_day {
-    flex-direction: row;
-  }
-
-  .room-tracklist {
-    width: 25%;
-  }
-
-  .room-tracklist.slideless {
-    width: 50%;
-  }
-
-  .room-tracklist.petite_salle {
-    border-left: 1px solid var(--grayscale-600);
-    border-right: 1px solid var(--grayscale-600);
-  }
-
-  article.card.hidden {
-    display: block;
-  }
 }
 
 article.session_details {
