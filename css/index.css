@@ -571,7 +571,7 @@ article.sessions-list .sessions_day {
 
 @media (min-width: 1280px) {
   .sessions_daytime_sessions {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
