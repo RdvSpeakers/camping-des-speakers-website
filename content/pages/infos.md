@@ -32,6 +32,7 @@ Les coordonnées du camping de Baden :
 
 - email : info@camping-baden.com
 
+- site : [www.camping-baden.com](https://www.camping-baden.com/)
 
 # Se restaurer
 
