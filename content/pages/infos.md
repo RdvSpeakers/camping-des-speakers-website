@@ -22,7 +22,16 @@ Pour venir au *Camping des speakers* :
 
 # Se loger
 
-Vous serez logé au camping en lui-même dans une tente ou un bungalow en fonction de ce que vous avez sélectionné lors de l'achat de votre place.
+Si vous avez acheté une place "Conférence 2 jours avec emplacement tente jeudi soir", vous serez logé au camping sur un emplacement tente.
+
+Si vous avez acheté une place "Conférence 2 jours", il vous faudra contacter le camping pour réserver un bungalow en précisant que vous venez au "Camping des speakers".
+
+Les coordonnées du camping de Baden :
+
+- téléphone : +33 (0) 2.97.57.02.06
+
+- email : info@camping-baden.com
+
 
 # Se restaurer
 

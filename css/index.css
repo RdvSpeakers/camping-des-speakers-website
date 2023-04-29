@@ -71,7 +71,7 @@ ul {
 
 /* Links */
 a {
-  color: inherit;
+  color: var(--text-color-link);
   text-decoration: none;
 }
 

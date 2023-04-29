@@ -53,6 +53,7 @@ export default eleventyConfig =>
       --jumbo-overlay-color: #b0e2fc;
       --jumbo-text: var(--grayscale-100);     
       --jumbo-overlay-transition: 0.5s;
+      --text-color-link: #4266f5;
 
     }
     @media (prefers-color-scheme: dark) {
@@ -64,5 +65,6 @@ export default eleventyConfig =>
         --sponsor-card-background: var(--grayscale-700);
         --card-background: var(--grayscale-800);
         --social-background: var(--grayscale-800);
+        --text-color-link: #c842f5;
       }
     }`)
