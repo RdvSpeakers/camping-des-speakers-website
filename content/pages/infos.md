@@ -6,6 +6,17 @@ weight: 2
 permalink: infos
 ---
 
+# Billets
+
+La [billetterie du Camping des Speakers](https://www.billetweb.fr/le-camping-des-speakers-2023) est ouverte.
+
+4 types de billets sont en vente :
+
+- Conférence 2 jours (repas compris)
+- Conférence 2 jours avec emplacement tente jeudi soir
+- Conférence 1 jour Jeudi (repas compris)
+- Conférence 1 jour Vendredi (repas compris)
+
 # Le camping
 
 Pour avoir plus d'informations, vous pouvez visiter le [site](https://www.camping-baden.com/) du camping.
