@@ -4,10 +4,10 @@ title: "Cette année, retombez amoureux de CSS ❤️"
 speakers:
   - olivier_leplus
 type: quechua
-day: 0
-time: 21h25
+day: 1
+time: 11h40
 duration: 20 minutes
-room: petite_salle
+room: grande_salle
 ---
 
 Je ne vais pas vous mentir, quand j'ai commencé à faire du dev front il y a 15 ans, le CSS et moi, nous n'étions pas vraiment amis. Malgré l'arrivée des variables ou de nouveaux systèmes de layouts, je suis resté quand même distant face à cette techno, ne l'utilisant que parce qu'étant obligé.

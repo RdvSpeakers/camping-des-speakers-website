@@ -4,8 +4,8 @@ title: "Esprit de famille, méthodes, rapport à l'argent, ambitions - l'hérita
 speakers:
   - mathieu_passenaud
 type: autour_du_feu
-day: 1
-time: 13h50
+day: 0
+time: 17h40
 duration: 15 minutes
 room: slideless
 ---

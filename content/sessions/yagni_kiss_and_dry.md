@@ -3,11 +3,11 @@ key: yagni_kiss_and_dry
 title: "YAGNI, KISS, and DRY: The Secret Recipe For Better Software Design"
 speakers:
   - maha_alsayasneh
-type: autour_du_feu
+type: quechua
 day: 1
-time: 13h30
-duration: 15 minutes
-room: slideless
+time: 11h15
+duration: 20 minutes
+room: grande_salle
 ---
 
 "Every line of code we don't write is dollars we didn't spend, and time on the calendar we get back for free" -Tim Evans-Ariyeh.

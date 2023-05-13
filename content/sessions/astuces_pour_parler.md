@@ -6,9 +6,9 @@ speakers:
   - sylvain_coudert
 type: bivouac
 day: 1
-time: 11h15
+time: 14h30
 duration: 45 minutes
-room: grande_salle
+room: slideless
 ---
 
 " La peur de parler en public est une des peurs les plus partagées au monde. Devant la pauvreté, devant la maladie, devant la mort" ... (Nable Léviste)
