@@ -4,8 +4,8 @@ title: "Programmons ensemble... une boite de vitesses"
 speakers:
   - mathieu_passenaud
 type: bivouac
-day: 0
-time: 21h00
+day: 1
+time: 13h30
 duration: 45 minutes
 room: slideless
 ---

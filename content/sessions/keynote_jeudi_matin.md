@@ -6,7 +6,7 @@ speakers:
   - pierre_tibulle
 type: keynote
 day: 0
-time: 09h20
+time: 09h00
 duration: 40 minutes
 room: grande_salle
 ---

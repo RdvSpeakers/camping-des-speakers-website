@@ -1,6 +1,6 @@
 ---
 key: keynote_vendredi_soir
-title: "Keynote d'Au revoir"
+title: "Keynote d'Au revoir 😢"
 speakers:
   - horacio_gonzalez
   - pierre_tibulle

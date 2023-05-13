@@ -5,7 +5,7 @@ speakers:
   - paul_pinault
 type: bivouac
 day: 0
-time: 16h00
+time: 13h30
 duration: 45 minutes
 room: slideless
 ---

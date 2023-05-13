@@ -5,7 +5,7 @@ speakers:
   - jean_francois_greffier
 type: autour_du_feu
 day: 0
-time: 21h20
+time: 21h00
 duration: 15 minutes
 room: slideless
 ---

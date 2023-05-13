@@ -1,6 +1,6 @@
 ---
 key: keynote_vendredi_matin
-title: "Keynote et Marché aux poissons"
+title: "Keynote surprise et Marché aux poissons"
 speakers:
   - horacio_gonzalez
   - pierre_tibulle

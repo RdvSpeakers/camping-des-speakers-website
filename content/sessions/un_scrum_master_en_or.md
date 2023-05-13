@@ -5,7 +5,7 @@ speakers:
   - laurie_coquillat
 type: bivouac
 day: 0
-time: 17h10
+time: 16h00
 duration: 45 minutes
 room: slideless
 ---
