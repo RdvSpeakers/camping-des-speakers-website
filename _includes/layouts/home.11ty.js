@@ -36,7 +36,7 @@ export function render(data) {
     <p></p>
 
     <h2>Vous souhaitez être sponsor ?</h2>
-    <a target="_blank" href="https://drive.google.com/file/d/1McXBSi-QncrBnRTVJXn0L9WqANNfNAfz/view" class="button">Consultez notre dossier de sponsoring</a>
+    <a target="_blank" href="https://drive.google.com/file/d/1QEde8YqLMLfKphyWT6QtIYqM6CSot1Up/view" class="button">Consultez notre dossier de sponsoring</a>
     
     <!--
     <p>
