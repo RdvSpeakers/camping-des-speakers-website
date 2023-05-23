@@ -4,8 +4,8 @@ title: "L'art du DeeJaying par la pratique"
 speakers:
   - david_pilato
 type: autour_du_feu
-day: 1
-time: 14h30
+day: 0
+time: 21h00
 duration: 15 minutes
 room: slideless
 ---
