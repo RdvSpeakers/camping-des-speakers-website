@@ -13,7 +13,7 @@ To carry the `data.locale` example further, this directory structure also allows
 Here’s an example of one way you might go about adding Spanish-language content:
 
 1. Make a directory named `es` inside this one (optionally, you could move all existing English-language content into a new `en` directory too)
-1. Nest corresponding copies of the [`pages`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master/content/pages) and [`posts`] (https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master/content/posts) directories inside the newly created `es` directory (e.g., `content/es/pages` and `content/es/posts`)
+1. Nest corresponding copies of the [`pages`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master/content/pages) and [`posts`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master/content/posts) directories inside the newly created `es` directory (e.g., `content/es/pages` and `content/es/posts`)
 1. Copy `content.11tydata.js` to  the `es` directory, and rename the copied file `es.11tydata.js`
 1. Do the same for `content/es/pages/pages.11tydata.js` and `content/es/posts/posts.11tydata.js`
 1. Copy `content/index.md` (the blog home page) to `content/es/index.md` and set `permalink` to `'/es/'` in the front matter data

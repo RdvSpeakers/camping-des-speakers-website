@@ -12,7 +12,7 @@ It's based on [eleventy-dot-js-blog](https://gitlab.com/reubenlillie/eleventy-do
 
 ## Getting started
 
-Simply open the [project on GitPod]((https://gitpod.io/#https://github.com/RdvSpeakers/camping-des-speakers-website.git)!
+Simply open the [project on GitPod](https://gitpod.io/#https://github.com/RdvSpeakers/camping-des-speakers-website.git)!
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/RdvSpeakers/camping-des-speakers-website.git)
 
