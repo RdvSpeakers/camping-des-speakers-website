@@ -5,7 +5,7 @@ speakers:
   - mathieu_passenaud
 type: bivouac
 day: 1
-time: 13h30
+time: 11h15
 duration: 45 minutes
 room: slideless
 ---

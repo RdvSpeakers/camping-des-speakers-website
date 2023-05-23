@@ -6,7 +6,7 @@ speakers:
   - guillaume_membre
 type: bivouac
 day: 1
-time: 11h15
+time: 13h30
 duration: 45 minutes
 room: slideless
 ---
