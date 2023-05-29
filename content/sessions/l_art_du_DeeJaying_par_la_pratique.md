@@ -26,6 +26,6 @@ Matériel principalement utilisé :
 * une [Pioneer DJM-900 Nexus 2 White](https://www.pioneerdj.com/fr-fr/product/mixer/archive/djm-900nxs2/white/overview/) ou une [Pioneer DJM-V10LF](https://www.pioneerdj.com/fr-fr/product/mixer/djm-v10-lf/black/overview/)
 * une enceinte amplifiée [FBT - X-Pro 112MA](https://www.fbt.it/en/products/x-pro/x-pro-112ma/)
 * un enregistreur
-* une table [AmericanDJ Pro Event table II](https://www.americandj.eu/fr/pro-event-table-ii-mb.html
+* une table [AmericanDJ Pro Event table II](https://www.americandj.eu/fr/pro-event-table-ii-mb.html)
 
 Aucune connaissance en musique requise. Juste un bon moment à passer en poussant des boutons.
