@@ -5,7 +5,7 @@ speakers:
   - yuliana_khorolich
 type: autour_du_feu
 day: 0
-time: 17h40
+time: 21h30
 duration: 15 minutes
 room: slideless
 ---
