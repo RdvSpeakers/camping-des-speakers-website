@@ -24,7 +24,7 @@ export default eleventyConfig =>
   eleventyConfig.addShortcode('siteFooter', function (data) {
     return `<footer>
       <div class="content">
-        <p>Trouvez-nous sur - <a href="https://twitter.com/CampingSpeakers">Twitter</a></p>
+        <p>Trouvez-nous sur <a href="https://twitter.com/CampingSpeakers">Twitter</a></p>
         <p>Éditions passées : <a href="https://2022.camping-speakers.fr/" target="_blank">Camping des Speakers 2022</a></p> 
         <p>${this.copyrightNotice(data)}</p>
         <p>${this.colophon(data)}</p>
