@@ -83,7 +83,7 @@
 }
 
 .jumbo img.jumbo-logo {
-  width: min(650px, 80%);
+  width: min(450px, 80%);
 }
 
 @keyframes scrollDownMove {
